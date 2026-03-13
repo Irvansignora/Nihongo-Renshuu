@@ -1,0 +1,6346 @@
+[
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_1",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "すずしい",
+      "b": "さむい",
+      "c": "あつい",
+      "d": "おいしい"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_2",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ゆき",
+      "b": "あめ",
+      "c": "かみなり",
+      "d": "かぜ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_3",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "コピー",
+      "b": "たんぼ",
+      "c": "プール",
+      "d": "みず"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_4",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "わかします",
+      "b": "ひろいます",
+      "c": "おろします",
+      "d": "とどけます"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_5",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "スーツ",
+      "b": "デート",
+      "c": "シャツ",
+      "d": "ペット"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_6",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "とまりました",
+      "b": "きれました",
+      "c": "さんかしました",
+      "d": "にゅういんしました"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_7",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "つき",
+      "b": "ついて",
+      "c": "ついた",
+      "d": "つける"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_8",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "たべよう",
+      "b": "たべれば",
+      "c": "たべる",
+      "d": "たべろ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_9",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "あげよう",
+      "b": "あげれば",
+      "c": "あげろ",
+      "d": "あげる"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_10",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "食べた",
+      "b": "食べて",
+      "c": "食べる",
+      "d": "食べない"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_11",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "きた",
+      "b": "にし",
+      "c": "ひがし",
+      "d": "みなみ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_12",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "ゆたか",
+      "b": "かのじょ",
+      "c": "しずか",
+      "d": "ゆか"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_13",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "てんきん",
+      "b": "うんてん",
+      "c": "うんどう",
+      "d": "かいとう"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_14",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "ねむくなります",
+      "b": "よくなります",
+      "c": "ふるくなります",
+      "d": "やすくなります"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Script and Vocabulary_15",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "ぬれました",
+      "b": "わすれました",
+      "c": "たおれました",
+      "d": "おくれました"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Conversation and Expression_1",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "おじゃまします",
+      "b": "おめでとうございます",
+      "c": "もうしわけありません",
+      "d": "まあまあです"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Conversation and Expression_2",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "いってらっしゃい",
+      "b": "いただきます",
+      "c": "あがってください",
+      "d": "ごちそうさま"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Conversation and Expression_3",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "行ってきます",
+      "b": "おじゃましました",
+      "c": "あとにしてください",
+      "d": "いらっしゃいませ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Conversation and Expression_4",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "じゃあ、いいです。",
+      "b": "じゃあ、おせわになります",
+      "c": "じゃあ、きおつけて",
+      "d": "じゃあ、いらっしゃいませ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ATSUI.pdf_Conversation and Expression_5",
+    "topic": "Atsui (暑い)",
+    "source": "d.SOAL -ATSUI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "おいくつですか",
+      "b": "いくらですか",
+      "c": "なん人ですか",
+      "d": "なんセンチですか"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_1",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "えんぴつ",
+      "b": "かみ",
+      "c": "ノート",
+      "d": "メモ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_2",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ペット",
+      "b": "ペットボトル",
+      "c": "ページ",
+      "d": "ペーパー"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_3",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "やきます",
+      "b": "われます",
+      "c": "きります",
+      "d": "かります"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_4",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "かぶります",
+      "b": "かえます",
+      "c": "きます",
+      "d": "ぬぎます"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_5",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "薬",
+      "b": "茶",
+      "c": "秋",
+      "d": "葉"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_6",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "ならぶ",
+      "b": "ならんだ",
+      "c": "ならべる",
+      "d": "ならべて"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_7",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "はずかしい",
+      "b": "はずかしく",
+      "c": "はずかしくて",
+      "d": "はずかし"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_8",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "かける",
+      "b": "かけて",
+      "c": "かけた",
+      "d": "かけている"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_9",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "たべる",
+      "b": "たべた",
+      "c": "たべられる",
+      "d": "たべられた"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_10",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "歩か",
+      "b": "歩き",
+      "c": "歩いて",
+      "d": "歩けて"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_11",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "あいて",
+      "b": "かしゅ",
+      "c": "じょうず",
+      "d": "にがて"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_12",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "えらべ",
+      "b": "あそべ",
+      "c": "ならべ",
+      "d": "くらべ"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_13",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "すすめる",
+      "b": "あつめる",
+      "c": "しめる",
+      "d": "とめる"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_14",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "あいさつ",
+      "b": "めいわく",
+      "c": "ぶちょう",
+      "d": "しゅっちょう"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Script and Vocabulary_15",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "はります",
+      "b": "のります",
+      "c": "もどります",
+      "d": "はじまります"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Conversation and Expression_2",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "見ます",
+      "b": "見えます",
+      "c": "見えません",
+      "d": "見ません"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Conversation and Expression_3",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "たべて",
+      "b": "たべた",
+      "c": "たべない",
+      "d": "たべ"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Conversation and Expression_4",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "から",
+      "b": "からい",
+      "c": "からくて",
+      "d": "からく"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -ENPITSU.pdf_Conversation and Expression_5",
+    "topic": "Enpitsu (鉛筆)",
+    "source": "d.SOAL -ENPITSU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "話して",
+      "b": "話し",
+      "c": "話せ",
+      "d": "話した"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_1",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "ゴム",
+      "b": "ジャム",
+      "c": "ガム",
+      "d": "ゲーム"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_2",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ひくい",
+      "b": "さむい",
+      "c": "かるい",
+      "d": "あつい"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_3",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "おかね",
+      "b": "おさら",
+      "c": "おしろ",
+      "d": "おなか"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_4",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "くだもの",
+      "b": "のりもの",
+      "c": "わすれもの",
+      "d": "ほんもの"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_5",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "おかね",
+      "b": "おさら",
+      "c": "おしろ",
+      "d": "おなか"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_6",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "食べれば",
+      "b": "食べている",
+      "c": "食べよう",
+      "d": "食べた"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_7",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "きたなく",
+      "b": "きたないいく",
+      "c": "きたないに",
+      "d": "きたないくに"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_8",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "およぐ",
+      "b": "およぎ",
+      "c": "およいで",
+      "d": "およごう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_9",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "作る",
+      "b": "作り",
+      "c": "作って",
+      "d": "作ったら"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_10",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "読む",
+      "b": "読み",
+      "c": "読んで",
+      "d": "読んだり"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_11",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "すいます",
+      "b": "あいます",
+      "c": "いいます",
+      "d": "まよいます"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_12",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "つめたい",
+      "b": "ぬるい",
+      "c": "いたい",
+      "d": "かゆい"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_13",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "しんせつ",
+      "b": "りょうほう",
+      "c": "りょうしん",
+      "d": "しんごう"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_14",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "はこんで",
+      "b": "えらんで",
+      "c": "あそんで",
+      "d": "よんで"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Script and Vocabulary_15",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "ほし",
+      "b": "そら",
+      "c": "くも",
+      "d": "かぜ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Conversation and Expression_1",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "はい、ください",
+      "b": "はい、いいですよ",
+      "c": "いいえ、くださいません",
+      "d": "いいえ、見ませんでした"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Conversation and Expression_2",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ごちそうさま",
+      "b": "いただきます",
+      "c": "しつれいします",
+      "d": "おねがいします"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Conversation and Expression_3",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "全部で８こです",
+      "b": "はこは１００円です",
+      "c": "はこは８こです",
+      "d": "全部で１００枚です"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Conversation and Expression_4",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "来てください",
+      "b": "来ました",
+      "c": "来ません",
+      "d": "来るでしょう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -GEMU.pdf_Conversation and Expression_5",
+    "topic": "Gemu (ゲーム)",
+    "source": "d.SOAL -GEMU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "話せますか",
+      "b": "話してから",
+      "c": "話そう",
+      "d": "話して"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_1",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "しろ",
+      "b": "じんじゃ",
+      "c": "きょうかい",
+      "d": "てら"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_2",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "はきます",
+      "b": "きます",
+      "c": "かけます",
+      "d": "かぶります"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_3",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "め",
+      "b": "はな",
+      "c": "くち",
+      "d": "みみ"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_4",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "くもり",
+      "b": "あめ",
+      "c": "はれ",
+      "d": "ゆき"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_5",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "はきます",
+      "b": "きます",
+      "c": "かけます",
+      "d": "かぶります"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_6",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "すきだ",
+      "b": "すきです",
+      "c": "すきな",
+      "d": "すき"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_7",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "ふきます",
+      "b": "ひきます",
+      "c": "かぶります",
+      "d": "だします"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_8",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "かいています",
+      "b": "かいた",
+      "c": "かいてあります",
+      "d": "かきます"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_9",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "働いています",
+      "b": "仕事します",
+      "c": "住んでいます",
+      "d": "運動しています"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_10",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "作ります",
+      "b": "旅行します",
+      "c": "おります",
+      "d": "住んでいます"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_11",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "ごぜん",
+      "b": "ごご",
+      "c": "ぎゅうにく",
+      "d": "なまえ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_12",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "ふゆまつり",
+      "b": "なつまつり",
+      "c": "あきまつり",
+      "d": "はるまつり"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_13",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "おんがく",
+      "b": "こえ",
+      "c": "しゅっぱつ",
+      "d": "はつおん"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_14",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "かお",
+      "b": "みみ",
+      "c": "あたま",
+      "d": "かみ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Script and Vocabulary_15",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "やきゅう",
+      "b": "やさい",
+      "c": "りょうり",
+      "d": "おちゃ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Conversation and Expression_1",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "クリスマス",
+      "b": "たんじょうび",
+      "c": "しょうがつ",
+      "d": "バレンタインデー"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Conversation and Expression_2",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "それほどではないです",
+      "b": "いいですね",
+      "c": "じょうずですよ",
+      "d": "いいえ、いません"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Conversation and Expression_3",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "はい、きました",
+      "b": "はい、おかげさまで",
+      "c": "はい、わかりました",
+      "d": "はい、こちらこそ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Conversation and Expression_4",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "いいですよ",
+      "b": "よかったですね",
+      "c": "またです",
+      "d": "なんですか"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -JINJYA.pdf_Conversation and Expression_5",
+    "topic": "Jinja (神社)",
+    "source": "d.SOAL -JINJYA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "いつ",
+      "b": "だれ",
+      "c": "どの",
+      "d": "どこ"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_1",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "はれ",
+      "b": "かみなり",
+      "c": "あめ",
+      "d": "ゆき"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_2",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "やきゅう",
+      "b": "バスケ",
+      "c": "サッカー",
+      "d": "じゅうどう"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_3",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "そうじき",
+      "b": "せんぷうき",
+      "c": "すいはんき",
+      "d": "せんたくき"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_4",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "たいしかん",
+      "b": "りょかん",
+      "c": "びじゅつかん",
+      "d": "としょかん"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_5",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "つなみ",
+      "b": "たいふう",
+      "c": "じしん",
+      "d": "かじ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_6",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "つづけます",
+      "b": "つづけて",
+      "c": "つづける",
+      "d": "つづけよう"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_7",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "座られました",
+      "b": "作られました",
+      "c": "聞かれました",
+      "d": "書かれました"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_8",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "行ったら",
+      "b": "行くな",
+      "c": "行きます",
+      "d": "行こう"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_9",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "寝て",
+      "b": "寝る",
+      "c": "寝ている",
+      "d": "寝"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_10",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "あります",
+      "b": "ほうがいい",
+      "c": "とおりに",
+      "d": "あとで"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_11",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "あく",
+      "b": "やく",
+      "c": "なく",
+      "d": "いく"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_12",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "ごうけい",
+      "b": "えいが",
+      "c": "とけい",
+      "d": "けいかく"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_13",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "しゅっちょう",
+      "b": "はつおん",
+      "c": "しゅっぱつ",
+      "d": "おんがく"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_14",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "じぶん",
+      "b": "しぜん",
+      "c": "ぜんぶ",
+      "d": "じゆう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Script and Vocabulary_15",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "ふね",
+      "b": "みなと",
+      "c": "ひこうき",
+      "d": "くうこう"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Conversation and Expression_1",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "行きません",
+      "b": "行きませんか",
+      "c": "わかりません",
+      "d": "わかりませんか"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Conversation and Expression_2",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ひろこさんをおねがいします",
+      "b": "ひろこさんをください",
+      "c": "ひろこさんと話しますか",
+      "d": "ひろこさんを待ってください"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Conversation and Expression_3",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "がんばってください",
+      "b": "どうたしまして",
+      "c": "ありがとうございます",
+      "d": "いただきます"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Conversation and Expression_4",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "しつれいしません",
+      "b": "しつれいします",
+      "c": "しつれいしています",
+      "d": "しつれいしました"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -KAMINARI.pdf_Conversation and Expression_5",
+    "topic": "Kaminari (雷)",
+    "source": "d.SOAL -KAMINARI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "たいへん",
+      "b": "もちろん",
+      "c": "ちょっと",
+      "d": "ほうんと"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_1",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "よわい",
+      "b": "あまい",
+      "c": "くらい",
+      "d": "からい"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_2",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "けしょう",
+      "b": "じゅうしょ",
+      "c": "どくしょ",
+      "d": "うんどう"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_3",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "しゅふ",
+      "b": "おじ",
+      "c": "そふ",
+      "d": "むすこ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_4",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "むすめ",
+      "b": "むすこ",
+      "c": "はは",
+      "d": "ちち"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_5",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "あけましておめでとうございます",
+      "b": "おたんじょうびおめでとうございます",
+      "c": "メリークリスマス",
+      "d": "バレンタインデーおめでとう"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_6",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "ので",
+      "b": "のが",
+      "c": "これ",
+      "d": "しか"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_7",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "かて",
+      "b": "かって",
+      "c": "かつ",
+      "d": "かとう"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_8",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "ふり",
+      "b": "ふる",
+      "c": "ふって",
+      "d": "ふった"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_9",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "ぐらい",
+      "b": "ごろ",
+      "c": "しか",
+      "d": "たら"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_10",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "なら",
+      "b": "では",
+      "c": "のに",
+      "d": "と"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_11",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "おくれましたか",
+      "b": "なれましたか",
+      "c": "たおれましたか",
+      "d": "のれましたか"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_12",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "すくない",
+      "b": "かからない",
+      "c": "あんない",
+      "d": "あぶない"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_13",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "さいふ",
+      "b": "さいしょ",
+      "c": "さいきん",
+      "d": "さいご"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_14",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "かぜ",
+      "b": "ねつ",
+      "c": "ひ",
+      "d": "せき"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Script and Vocabulary_15",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "きらい",
+      "b": "からい",
+      "c": "あまい",
+      "d": "おいしい"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Conversation and Expression_1",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "たいせつにします",
+      "b": "おじゃまします",
+      "c": "ごめんください",
+      "d": "またきてください"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Conversation and Expression_2",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "おじゃましました",
+      "b": "おかえりなさい",
+      "c": "いただきます",
+      "d": "あがってください"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Conversation and Expression_3",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "いいてんきですね",
+      "b": "よかったですね",
+      "c": "それはいいですね",
+      "d": "それはいけませんね"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Conversation and Expression_4",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "教えてもらえませんか",
+      "b": "教えたほうがいいですよ",
+      "c": "教えればいいですね",
+      "d": "教えなくてもいいです"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KARAI.pdf_Conversation and Expression_5",
+    "topic": "Karai (辛い)",
+    "source": "d.SOAL -KARAI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "ふったら",
+      "b": "どうやったら",
+      "c": "よかったら",
+      "d": "どうしたら"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_1",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "交番",
+      "b": "花園",
+      "c": "公園",
+      "d": "庭園"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_2",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "自動車",
+      "b": "自転車",
+      "c": "電車",
+      "d": "会社"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_3",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "天気",
+      "b": "天気図",
+      "c": "元気",
+      "d": "地図"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_4",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "間",
+      "b": "問い",
+      "c": "聞く",
+      "d": "開く"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_5",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "病的",
+      "b": "病名",
+      "c": "病院",
+      "d": "病気"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_6",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "行ける",
+      "b": "行けて",
+      "c": "行け",
+      "d": "行けます"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_7",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "きく",
+      "b": "きき",
+      "c": "きいた",
+      "d": "きけば"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_8",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "べんりな",
+      "b": "べんりで",
+      "c": "べんりくて",
+      "d": "べんりだ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_9",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "休んだ",
+      "b": "休む",
+      "c": "休み",
+      "d": "休ませて"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_10",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "よやくした",
+      "b": "よやくして",
+      "c": "よやくすれば",
+      "d": "よやくしよう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_11",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "おちゃ",
+      "b": "おさら",
+      "c": "おはなみ",
+      "d": "おかね"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_12",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "かえり",
+      "b": "のり",
+      "c": "はしり",
+      "d": "とり"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_13",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "でんしゃ",
+      "b": "でんわ",
+      "c": "てんき",
+      "d": "でんき"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_14",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "かくにん",
+      "b": "ごうけい",
+      "c": "おきゃく",
+      "d": "ごうかく"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Script and Vocabulary_15",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "がいしょく",
+      "b": "がいこく",
+      "c": "かいがい",
+      "d": "そとくに"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Conversation and Expression_1",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "取ってもいいでしょうか",
+      "b": "取ってください",
+      "c": "取ってよかった",
+      "d": "取ってはいけない"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Conversation and Expression_2",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "のぼりましたか",
+      "b": "行きましたか",
+      "c": "帰りましたか",
+      "d": "書きましたか"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Conversation and Expression_3",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "ごめんなさい",
+      "b": "たいせつにします",
+      "c": "おやすみなさい",
+      "d": "お待たせしました"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Conversation and Expression_4",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "そんなことないです",
+      "b": "じょうずですね",
+      "c": "たいへんですね",
+      "d": "そうですよ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KOEN 公園 .pdf_Conversation and Expression_5",
+    "topic": "Koen (公園) B",
+    "source": "d.SOAL -KOEN 公園 .pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "あります",
+      "b": "行きました",
+      "c": "見たことがないです",
+      "d": "また見たいです"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_1",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "あかい",
+      "b": "くろい",
+      "c": "あおい",
+      "d": "きいろい"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_2",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ありがとう",
+      "b": "すみません",
+      "c": "がんばれ",
+      "d": "だれか"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_3",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "こんにちは",
+      "b": "おじゃまします",
+      "c": "ありがとう",
+      "d": "すみません"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_4",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "ちず",
+      "b": "チーズ",
+      "c": "みち",
+      "d": "チェス"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_5",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "ボール",
+      "b": "ホール",
+      "c": "ペット",
+      "d": "セット"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_6",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "はなします",
+      "b": "おります",
+      "c": "のります",
+      "d": "そうじします"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_7",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "話せ",
+      "b": "話せる",
+      "c": "話そう",
+      "d": "話して"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_8",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "しかれ",
+      "b": "しかる",
+      "c": "しからない",
+      "d": "しかられました"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_9",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "買わない",
+      "b": "買っています",
+      "c": "買います",
+      "d": "買いました"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_10",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "あげました",
+      "b": "ならいました",
+      "c": "おしえました",
+      "d": "はしりました"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_11",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "あるきます",
+      "b": "かきます",
+      "c": "なきます",
+      "d": "はたらきます"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_12",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "しんごう",
+      "b": "こうさてん",
+      "c": "ちゅうしゃじょう",
+      "d": "ばんごう"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_13",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "わたる",
+      "b": "あける",
+      "c": "はしる",
+      "d": "かりる"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_14",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "あるいています",
+      "b": "うごいています",
+      "c": "はたらいています",
+      "d": "きいています"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Script and Vocabulary_15",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "たり",
+      "b": "のり",
+      "c": "かり",
+      "d": "ぬり"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Conversation and Expression_1",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "おれい",
+      "b": "おみまい",
+      "c": "おめでとう",
+      "d": "たいくつ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Conversation and Expression_2",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "てつだいます",
+      "b": "すみません。ありがとうございます。",
+      "c": "もうしわけありません",
+      "d": "たいへんですか"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Conversation and Expression_3",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "しつれいします",
+      "b": "おあがりください",
+      "c": "ごめんください",
+      "d": "すまない"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Conversation and Expression_4",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "はじめまして",
+      "b": "おせわになります",
+      "c": "おせわになりました",
+      "d": "ごちそうさまでした"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -KUROI.pdf_Conversation and Expression_5",
+    "topic": "Kuroi (黒い)",
+    "source": "d.SOAL -KUROI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "どのぐらい",
+      "b": "だれが",
+      "c": "けど",
+      "d": "このあと"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_1",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "ならべます",
+      "b": "かざります",
+      "c": "かえします",
+      "d": "くらべます"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_2",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "わたる",
+      "b": "なげる",
+      "c": "ながす",
+      "d": "ひろう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_3",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "おりる",
+      "b": "のる",
+      "c": "ふる",
+      "d": "のぼる"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_4",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "いちご",
+      "b": "すらとるべり",
+      "c": "スラトルベリー",
+      "d": "スラトルベーリ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_5",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "歩く",
+      "b": "走る",
+      "c": "泳ぐ",
+      "d": "急ぐ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_6",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "出た",
+      "b": "出ない",
+      "c": "出る",
+      "d": "出て"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_7",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "おいしい",
+      "b": "おいし",
+      "c": "おいしく",
+      "d": "おいしくて"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_8",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "する",
+      "b": "した",
+      "c": "して",
+      "d": "しよう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_9",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "帰らない",
+      "b": "帰る",
+      "c": "帰って",
+      "d": "帰った"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_10",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "とかい",
+      "b": "どかい",
+      "c": "とうかい",
+      "d": "とけい"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_11",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "こちょう",
+      "b": "ことり",
+      "c": "しょうちょう",
+      "d": "しょうとり"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_12",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "すいど",
+      "b": "すいどう",
+      "c": "すうど",
+      "d": "すうどう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_13",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "ちゅうがっこう",
+      "b": "ちゅうがこ",
+      "c": "ちゅうがっこ",
+      "d": "ちゅっがっこう"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Script and Vocabulary_14",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "となりに",
+      "b": "ために",
+      "c": "あとに",
+      "d": "きゅうに"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Conversation and Expression_1",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "来なくて",
+      "b": "来なかったら",
+      "c": "来なければ",
+      "d": "来ないと"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Conversation and Expression_2",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "おそくなる",
+      "b": "おそくなれば",
+      "c": "おそくなければ",
+      "d": "おそくなるなら"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Conversation and Expression_3",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "それから",
+      "b": "なかなか",
+      "c": "ぜんぜん",
+      "d": "それで"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Conversation and Expression_4",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "行って",
+      "b": "行くと",
+      "c": "行くなら",
+      "d": "行っても"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -NARABEMASU.pdf_Conversation and Expression_5",
+    "topic": "Narabemasu (並べます)",
+    "source": "d.SOAL -NARABEMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "いそがしくて",
+      "b": "いそがしいと",
+      "c": "いそがしくても",
+      "d": "いそがしかったら"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_1",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "さかな",
+      "b": "にく",
+      "c": "ぎゅうにゅう",
+      "d": "やさい"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_2",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "からい",
+      "b": "あまい",
+      "c": "すっぱい",
+      "d": "にがい"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_3",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "はなみ",
+      "b": "だいどころ",
+      "c": "はなび",
+      "d": "おふろ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_4",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "にんぎょう",
+      "b": "きんじょ",
+      "c": "こうぎょう",
+      "d": "おくじょ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_5",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "ケース",
+      "b": "ノート",
+      "c": "ハンカチ",
+      "d": "ボールペン"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_6",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "行く",
+      "b": "行った",
+      "c": "行って",
+      "d": "行かない"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_7",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "ばあい",
+      "b": "ほしい",
+      "c": "のに",
+      "d": "から"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_8",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "読む",
+      "b": "読みました",
+      "c": "読んで",
+      "d": "読み"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_9",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "借りよう",
+      "b": "借り",
+      "c": "借りた",
+      "d": "借りる"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_10",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "答えて",
+      "b": "答えられる",
+      "c": "答え",
+      "d": "答える"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_11",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "しごと",
+      "b": "じこ",
+      "c": "しぜん",
+      "d": "しけん"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_12",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "かさ",
+      "b": "え",
+      "c": "あと",
+      "d": "まえ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_13",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "すって",
+      "b": "ひかって",
+      "c": "ふって",
+      "d": "はらって"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_14",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "ばあい",
+      "b": "かいじょう",
+      "c": "ばしょ",
+      "d": "かいぎ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Script and Vocabulary_15",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "すいえい",
+      "b": "どうぐ",
+      "c": "すいどう",
+      "d": "うんどう"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Conversation and Expression_1",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "しかりました",
+      "b": "しかったんです",
+      "c": "しかっていました",
+      "d": "しかられました"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Conversation and Expression_2",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "かるい",
+      "b": "うまい",
+      "c": "おいしい",
+      "d": "いたい"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Conversation and Expression_3",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "ついたままですよ",
+      "b": "あしたけしてください",
+      "c": "これからがんばります",
+      "d": "こんどからきをつけます"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Conversation and Expression_4",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "がんばってください",
+      "b": "いくらですか",
+      "c": "おだいじに",
+      "d": "ちょっといいですか"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -NIKU.pdf_Conversation and Expression_5",
+    "topic": "Niku (肉)",
+    "source": "d.SOAL -NIKU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "しります",
+      "b": "しっています",
+      "c": "しりました",
+      "d": "います"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_1",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "おはようございます",
+      "b": "さようなら",
+      "c": "ただいま",
+      "d": "おせわになります"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_2",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "いってきます",
+      "b": "ただいま",
+      "c": "おげんきですか",
+      "d": "だいじょうぶですか"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_3",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "いってらっしゃい",
+      "b": "おげんきで",
+      "c": "いただきます",
+      "d": "ごちそうさま"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_4",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "お腹",
+      "b": "お金",
+      "c": "お皿",
+      "d": "お酒"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_5",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "ぶどう",
+      "b": "アプルー",
+      "c": "アペルー",
+      "d": "りんご"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_6",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "あけて",
+      "b": "しめて",
+      "c": "はじめて",
+      "d": "そだてて"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_7",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "ようで",
+      "b": "ような",
+      "c": "ように",
+      "d": "ようの"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_8",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "する",
+      "b": "して",
+      "c": "した",
+      "d": "します"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_9",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "読む",
+      "b": "読み",
+      "c": "読んで",
+      "d": "読んだり"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_10",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "終わっても",
+      "b": "終わったら",
+      "c": "終わったり",
+      "d": "終わっては"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_11",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "しょうりょうひん",
+      "b": "しょりょうひん",
+      "c": "しょくりょひん",
+      "d": "しょくりょうひん"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_12",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "たいせつ",
+      "b": "だいせつ",
+      "c": "だいじ",
+      "d": "だいきり"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_13",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "せいよ",
+      "b": "にしょう",
+      "c": "せいよう",
+      "d": "にしょ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_14",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "しゅうじん",
+      "b": "しゅじん",
+      "c": "しゅにん",
+      "d": "しじん"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Script and Vocabulary_15",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "びじゅつかん",
+      "b": "としょかん",
+      "c": "えいがかん",
+      "d": "はくぶつかん"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Conversation and Expression_1",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "おもしろい",
+      "b": "つまらない",
+      "c": "やさしい",
+      "d": "むずかしい"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Conversation and Expression_2",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "はなして",
+      "b": "よんで",
+      "c": "ひいて",
+      "d": "はいって"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Conversation and Expression_3",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "いっさつ",
+      "b": "ひとり",
+      "c": "いっぽん",
+      "d": "いちど"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Conversation and Expression_4",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "おめでとう",
+      "b": "がんばりましょう",
+      "c": "かんぱい",
+      "d": "おせわになりました"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SAYONARA.pdf_Conversation and Expression_5",
+    "topic": "Sayonara (さようなら)",
+    "source": "d.SOAL -SAYONARA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "それはいいですね",
+      "b": "どうぞおだいじに",
+      "c": "たいへんですね",
+      "d": "おさきにどうぞおさきにどうぞ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_1",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "せんぷうき",
+      "b": "そうじき",
+      "c": "せんたくき",
+      "d": "けいさんき"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_2",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ステーション",
+      "b": "ステージ",
+      "c": "ステーキ",
+      "d": "ステークホルダー"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_3",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "ひろう",
+      "b": "にげる",
+      "c": "すてる",
+      "d": "おくる"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_4",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "たつ",
+      "b": "おりる",
+      "c": "ふる",
+      "d": "すわる"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_5",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "てぶくろ",
+      "b": "シャツ",
+      "c": "くつ",
+      "d": "ワンピース"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_6",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "家族に",
+      "b": "家族の",
+      "c": "家族で"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_7",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "きいた",
+      "b": "ききに",
+      "c": "きくと"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_8",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "食べている",
+      "b": "食べる",
+      "c": "食べ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_9",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "じゅんびした",
+      "b": "じゅんびして",
+      "c": "じゅんびする"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_10",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "食べたい",
+      "b": "食べ",
+      "c": "食べる"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_11",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "へた",
+      "b": "じょうず",
+      "c": "にがて",
+      "d": "かしゅ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_12",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "はちがつ",
+      "b": "はちにん",
+      "c": "はつか",
+      "d": "ようか"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_13",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "しごと",
+      "b": "かじ",
+      "c": "じしん",
+      "d": "かよう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_14",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "とり",
+      "b": "うま",
+      "c": "しま",
+      "d": "さかな"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Script and Vocabulary_15",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "きんじょう",
+      "b": "じょうず",
+      "c": "うわぎ",
+      "d": "したぎ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Conversation and Expression_1",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "You want to close the window",
+    "options": {
+      "a": "閉めてもいいですか",
+      "b": "閉めてくれませんか",
+      "c": "閉めてください"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Conversation and Expression_2",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "You just ride a taxi and you want to go to Tokyo",
+    "options": {
+      "a": "東京駅までおねがいします",
+      "b": "東京駅はどこですか",
+      "c": "東京駅へいきますたか"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Conversation and Expression_3",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "You will ask the man to take a picture of you",
+    "options": {
+      "a": "すみません、1枚とってくださいませんか",
+      "b": "すみません、写真を1枚ありますか",
+      "c": "すみません、1枚とりましょうか"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Conversation and Expression_4",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "あの人です",
+      "b": "あちらです",
+      "c": "そうです"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -SOUJIKI.pdf_Conversation and Expression_5",
+    "topic": "Soujiki (掃除機)",
+    "source": "d.SOAL -SOUJIKI.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "はたちです",
+      "b": "はつかです",
+      "c": "はちにんです"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_1",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "すわります",
+      "b": "たちます",
+      "c": "もちます",
+      "d": "はしります"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_2",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "りょうしん",
+      "b": "ゆうりょう",
+      "c": "むりょう",
+      "d": "りょうり"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_3",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "パン",
+      "b": "トイレ",
+      "c": "パソコン",
+      "d": "たまご"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_4",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "聞きます",
+      "b": "開きます",
+      "c": "閉めます",
+      "d": "質問します"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_5",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "カレー",
+      "b": "ラーメン",
+      "c": "たまご",
+      "d": "おにぎり"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_6",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "ぼうし",
+      "b": "スーツ",
+      "c": "コート",
+      "d": "めがね"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_7",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "ふりながら",
+      "b": "ふったほうが",
+      "c": "ふると",
+      "d": "ふったら"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_8",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "たたせました",
+      "b": "たてられました",
+      "c": "たたなければ",
+      "d": "たってみた"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_9",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "行かないで",
+      "b": "行くなら",
+      "c": "行って",
+      "d": "行ったら"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_10",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "歩かない",
+      "b": "歩く",
+      "c": "歩ける",
+      "d": "歩くとき"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_11",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "もんだい",
+      "b": "しつもん",
+      "c": "しゅくだい",
+      "d": "ちゅうもん"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_12",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "ひろいました",
+      "b": "すてました",
+      "c": "あいました",
+      "d": "ならいました"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_13",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "おんがく",
+      "b": "おんど",
+      "c": "えいが",
+      "d": "せんたく"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_14",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "たのしい",
+      "b": "くるしい",
+      "c": "おいしい",
+      "d": "ただしい"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Script and Vocabulary_15",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "しごと",
+      "b": "ちゅうしょく",
+      "c": "しょくどう",
+      "d": "しょくじ"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Conversation and Expression_1",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "ごめんください",
+      "b": "おげんきで",
+      "c": "おまたせしました",
+      "d": "さようなら"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Conversation and Expression_2",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "にちようび",
+      "b": "こうえん",
+      "c": "ともだち",
+      "d": "ほんとうに"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Conversation and Expression_3",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "にがて",
+      "b": "へた",
+      "c": "じょうず",
+      "d": "さむい"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Conversation and Expression_4",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "のぼっているか",
+      "b": "のぼりましたか",
+      "c": "のぼってみたいか",
+      "d": "のぼってもいいですか"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TACHIMASU.pdf_Conversation and Expression_5",
+    "topic": "Tachimasu (立ちます)",
+    "source": "d.SOAL -TACHIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "こうつう",
+      "b": "こうさてん",
+      "c": "ちゅうしゃじょう",
+      "d": "しんご"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_1",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "テープ",
+      "b": "テーブル",
+      "c": "デパート",
+      "d": "デート"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_2",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "しまります",
+      "b": "しめます",
+      "c": "あきます",
+      "d": "こまります"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_3",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "食後",
+      "b": "食堂",
+      "c": "飲食",
+      "d": "食品"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_4",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "セール",
+      "b": "センター",
+      "c": "サラダ",
+      "d": "サービス"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_5",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "風呂",
+      "b": "風邪",
+      "c": "台風",
+      "d": "台所"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_6",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "けけて",
+      "b": "かける",
+      "c": "かけた",
+      "d": "かけたい"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_7",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "やって",
+      "b": "なって",
+      "c": "ふいて",
+      "d": "ひいて"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_8",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "暑かった",
+      "b": "暑いかった",
+      "c": "暑くなかった",
+      "d": "暑いじゃなかった"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_9",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "開けた",
+      "b": "開いた",
+      "c": "閉まった",
+      "d": "消えた"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_10",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "ふるの",
+      "b": "ふって",
+      "c": "ふった",
+      "d": "ふる"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_11",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "ひだり",
+      "b": "みぎ",
+      "c": "いわ",
+      "d": "いし"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_12",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "いない",
+      "b": "いがい",
+      "c": "いじょ",
+      "d": "いか"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_13",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "おくじょう",
+      "b": "きんじょ",
+      "c": "へや",
+      "d": "はなや"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_14",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "おこる",
+      "b": "しかる",
+      "c": "のぼる",
+      "d": "さがる"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Script and Vocabulary_15",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "いみ",
+      "b": "あじ",
+      "c": "はる",
+      "d": "おっと"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Conversation and Expression_1",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "けっこうです",
+      "b": "こちらこそ",
+      "c": "いいですね",
+      "d": "よかった"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Conversation and Expression_2",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "いらっさい",
+      "b": "しつれいします",
+      "c": "ごめんください",
+      "d": "おかえりなさい"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Conversation and Expression_3",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "しんぱいですね",
+      "b": "だいじょうぶですね",
+      "c": "ごめんなさい",
+      "d": "ありがとうございます"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Conversation and Expression_4",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "おかけください",
+      "b": "おじゃましました",
+      "c": "おせわになりました",
+      "d": "おつかれさまでした"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TEBURU.pdf_Conversation and Expression_5",
+    "topic": "Teburu (テーブル)",
+    "source": "d.SOAL -TEBURU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "いらっさいませ",
+      "b": "いただきました",
+      "c": "かしこまりました",
+      "d": "ごちそうさまでした"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_1",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "カレー",
+      "b": "すし",
+      "c": "てんぷら",
+      "d": "ラーメン"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_2",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "コート",
+      "b": "コーヒー",
+      "c": "コーラ",
+      "d": "コピー"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_3",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "そば",
+      "b": "ごはん",
+      "c": "たんぼ",
+      "d": "スープ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_4",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "カレンダー",
+      "b": "カップ",
+      "c": "カタログ",
+      "d": "カウンター"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_5",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "部屋",
+      "b": "屋上",
+      "c": "台所",
+      "d": "玄関"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_6",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "行けば",
+      "b": "行っては",
+      "c": "行って",
+      "d": "行こう"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_7",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "ふり",
+      "b": "ふって",
+      "c": "ふる",
+      "d": "ふった"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_8",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "読むし",
+      "b": "読むや",
+      "c": "読んで",
+      "d": "読んだり"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_9",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "帰る",
+      "b": "帰って",
+      "c": "帰り",
+      "d": "帰った"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_10",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "おもしろくなります",
+      "b": "おもしろいじゃありません",
+      "c": "おもしろいです",
+      "d": "おもしろくないです"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_11",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "かのじょ",
+      "b": "かれし",
+      "c": "おんなのこ",
+      "d": "かれ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_12",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "ようす",
+      "b": "ちょうし",
+      "c": "きけん",
+      "d": "きせつ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_13",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "くうこう",
+      "b": "くうき",
+      "c": "みなと",
+      "d": "そら"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_14",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "きせつ",
+      "b": "あんない",
+      "c": "けしき",
+      "d": "きんいろ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Script and Vocabulary_15",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "おす",
+      "b": "はなす",
+      "c": "けす",
+      "d": "なおす"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Conversation and Expression_1",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "アルバイト",
+      "b": "アパート",
+      "c": "エレベーター",
+      "d": "カーテン"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Conversation and Expression_2",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "かぶります",
+      "b": "きます",
+      "c": "かけます",
+      "d": "はきます"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Conversation and Expression_3",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "とこや",
+      "b": "やおや",
+      "c": "さかなや",
+      "d": "はなや"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Conversation and Expression_4",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "休んで",
+      "b": "遊んで",
+      "c": "選んで",
+      "d": "楽しん"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TENPURA.pdf_Conversation and Expression_5",
+    "topic": "Tenpura (天ぷら)",
+    "source": "d.SOAL -TENPURA.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "にがい",
+      "b": "あまい",
+      "c": "からい",
+      "d": "くらい"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_1",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "どぶ",
+      "b": "のぼる",
+      "c": "ねぼうする",
+      "d": "およぐ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_2",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "しょくどう",
+      "b": "ていしょく",
+      "c": "しょくご",
+      "d": "のみもの"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_3",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "しょうひん",
+      "b": "せいひん",
+      "c": "しょどう",
+      "d": "しゃしん"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_4",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "スカート",
+      "b": "シャツ",
+      "c": "セーター",
+      "d": "コートー"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_5",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "ひく",
+      "b": "おす",
+      "c": "もつ",
+      "d": "ころぶ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_6",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "のに",
+      "b": "しか",
+      "c": "までに",
+      "d": "まで"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_7",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "する",
+      "b": "した",
+      "c": "して",
+      "d": "しない"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_8",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "入ります",
+      "b": "入っちゃ",
+      "c": "入る",
+      "d": "入って"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_9",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "出た",
+      "b": "出る",
+      "c": "出ている",
+      "d": "出ていない"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_10",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "さびしい",
+      "b": "さびしくて",
+      "c": "さびしいで",
+      "d": "さびしく"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_11",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "がまん",
+      "b": "まんが",
+      "c": "えいが",
+      "d": "がめん"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_12",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "ほうめん",
+      "b": "かたち",
+      "c": "ほうほう",
+      "d": "ちほう"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_13",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "まんめし",
+      "b": "えんそく",
+      "c": "まんぞく",
+      "d": "まんてん"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_14",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "きたうみどう",
+      "b": "ほっかいどう",
+      "c": "てんきょほう",
+      "d": "しんかんせん"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Script and Vocabulary_15",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "ばしょ",
+      "b": "こうじ",
+      "c": "こうじょう",
+      "d": "かいじょう"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Conversation and Expression_1",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "しょうかい",
+      "b": "あいさつ",
+      "c": "はいけん",
+      "d": "れんらく"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Conversation and Expression_2",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "だいじょうぶですよ",
+      "b": "ごめんなさい",
+      "c": "にあいませんよ",
+      "d": "しんぱいですよ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Conversation and Expression_3",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "どういたしまして",
+      "b": "おねがいします",
+      "c": "どうぞよろしく",
+      "d": "かしこまりました"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Conversation and Expression_4",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "がんばってください",
+      "b": "おめでとうございます",
+      "c": "いってらしゃい",
+      "d": "いっらしゃい"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -TOBU.pdf_Conversation and Expression_5",
+    "topic": "Tobu (飛ぶ)",
+    "source": "d.SOAL -TOBU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "けっこうです",
+      "b": "おかげさまで",
+      "c": "おめでとうございます",
+      "d": "どういたしまして"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_1",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "かります",
+      "b": "うります",
+      "c": "にゅういんします",
+      "d": "よやくします"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_2",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ワンピース",
+      "b": "アンケート",
+      "c": "マーケット",
+      "d": "ページ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_3",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "キャベツ",
+      "b": "ねぎ",
+      "c": "なす",
+      "d": "ピーマン"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_4",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "ほんだな",
+      "b": "ひきだし",
+      "c": "つくえ",
+      "d": "いす"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_5",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "ピアス",
+      "b": "ふく",
+      "c": "くつした",
+      "d": "スーツ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_6",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "といった",
+      "b": "という",
+      "c": "といって",
+      "d": "といい"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_7",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "あります",
+      "b": "あって",
+      "c": "ありません",
+      "d": "あった"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_8",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "以外",
+      "b": "以上",
+      "c": "以下",
+      "d": "以内"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_9",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "ようい",
+      "b": "ねんしゅう",
+      "c": "せいり",
+      "d": "ちゅうい"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_10",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "小さくて",
+      "b": "大きくて",
+      "c": "重くて",
+      "d": "軽くて"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_11",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "かえって",
+      "b": "もどって",
+      "c": "いって",
+      "d": "きって"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_12",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "しろい",
+      "b": "くろい",
+      "c": "あかい",
+      "d": "きいろい"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_13",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "つめて",
+      "b": "まるめて",
+      "c": "つとめて",
+      "d": "あつめて"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_14",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "あじ",
+      "b": "おと",
+      "c": "いろ",
+      "d": "かお"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Script and Vocabulary_15",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "のぼろう",
+      "b": "はしろう",
+      "c": "つくろう",
+      "d": "とろう"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Conversation and Expression_1",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "むり",
+      "b": "むりな",
+      "c": "むりだ",
+      "d": "むりで"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Conversation and Expression_2",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "いそがしくて",
+      "b": "いそがしくない",
+      "c": "いそがし",
+      "d": "いそがしい"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Conversation and Expression_3",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "ナイフ",
+      "b": "フォーク",
+      "c": "コップ",
+      "d": "ガラス"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Conversation and Expression_4",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "買いました",
+      "b": "借りました",
+      "c": "貸しました",
+      "d": "勤めました"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -URIMASU.pdf_Conversation and Expression_5",
+    "topic": "Urimasu (売ります)",
+    "source": "d.SOAL -URIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "よわい",
+      "b": "つよい",
+      "c": "じょうぶな",
+      "d": "げんきな"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_1",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 1,
+    "question": "",
+    "options": {
+      "a": "もえます",
+      "b": "やきます",
+      "c": "のります",
+      "d": "さきます"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_2",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "あけます",
+      "b": "つけます",
+      "c": "かぶります",
+      "d": "さがります"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_3",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "あそびます",
+      "b": "たすけます",
+      "c": "あびます",
+      "d": "のこります"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_4",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "夏",
+      "b": "秋",
+      "c": "春",
+      "d": "冬"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_5",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "じゅしょ",
+      "b": "じしゅう",
+      "c": "じしょ",
+      "d": "じしゅ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_6",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 6,
+    "question": "",
+    "options": {
+      "a": "とまる",
+      "b": "とまり",
+      "c": "とまった",
+      "d": "とまって"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_7",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 7,
+    "question": "",
+    "options": {
+      "a": "みて",
+      "b": "みる",
+      "c": "み",
+      "d": "みた"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_8",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 8,
+    "question": "",
+    "options": {
+      "a": "よもう",
+      "b": "よむよう",
+      "c": "よむろう",
+      "d": "よみよう"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_9",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 9,
+    "question": "",
+    "options": {
+      "a": "しずか",
+      "b": "しずかで",
+      "c": "しずかだ",
+      "d": "しずかな"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_10",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 10,
+    "question": "",
+    "options": {
+      "a": "かんたん",
+      "b": "かんたんな",
+      "c": "かんたんに",
+      "d": "かんたんだ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_11",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 11,
+    "question": "",
+    "options": {
+      "a": "うれしい",
+      "b": "さびしい",
+      "c": "かなしい",
+      "d": "たのしい"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_12",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 12,
+    "question": "",
+    "options": {
+      "a": "ひとき",
+      "b": "にちとき",
+      "c": "ひじ",
+      "d": "にちじ"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_13",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 13,
+    "question": "",
+    "options": {
+      "a": "ごはん",
+      "b": "こめ",
+      "c": "え",
+      "d": "もり"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_14",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 14,
+    "question": "",
+    "options": {
+      "a": "しゅみ",
+      "b": "きょうみ",
+      "c": "いみ",
+      "d": "あじ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Script and Vocabulary_15",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Script and Vocabulary",
+    "question_num": 15,
+    "question": "",
+    "options": {
+      "a": "れんしゅう",
+      "b": "かいがん",
+      "c": "にんき",
+      "d": "かくにん"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Conversation and Expression_2",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "ひいて",
+      "b": "ふいて",
+      "c": "ふって",
+      "d": "はいて"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Conversation and Expression_3",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "あります",
+      "b": "います",
+      "c": "ありません",
+      "d": "いいます"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Conversation and Expression_4",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 4,
+    "question": "",
+    "options": {
+      "a": "います",
+      "b": "おわります",
+      "c": "あります",
+      "d": "しまいます"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "d.SOAL -YAKIMASU.pdf_Conversation and Expression_5",
+    "topic": "Yakimasu (焼きます)",
+    "source": "d.SOAL -YAKIMASU.pdf",
+    "category": "Conversation & Expression",
+    "section": "Conversation and Expression",
+    "question_num": 5,
+    "question": "",
+    "options": {
+      "a": "むずかしい",
+      "b": "むずかし",
+      "c": "むずかしく",
+      "d": "むずかしくて"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "d.SOAL BANK JFT 2.pdf_B_9",
+    "topic": "Bank Soal JFT 2",
+    "source": "d.SOAL BANK JFT 2.pdf",
+    "category": "Vocabulary (Fill-in-blank)",
+    "section": "Section B",
+    "question_num": 9,
+    "question": "はしを＿＿＿＿＿＿まっすぐ行くと、左にあります。 2. こい",
+    "options": {
+      "a": "おして 3. にがい",
+      "b": "まがって",
+      "c": "わたって 16) さいきん、＿＿＿＿＿寒くなりましてね。"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL BANK JFT 2.pdf_B_10",
+    "topic": "Bank Soal JFT 2",
+    "source": "d.SOAL BANK JFT 2.pdf",
+    "category": "Vocabulary (Fill-in-blank)",
+    "section": "Section B",
+    "question_num": 10,
+    "question": "日本語は韓 かん 国 こく 語 ご と文法が＿＿＿＿＿＿。 2. どきどき",
+    "options": {
+      "a": "にています 3. わくわく",
+      "b": "しっています"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL BANK JFT 2.pdf_B_11",
+    "topic": "Bank Soal JFT 2",
+    "source": "d.SOAL BANK JFT 2.pdf",
+    "category": "Vocabulary (Fill-in-blank)",
+    "section": "Section B",
+    "question_num": 11,
+    "question": "このトレーニングは＿＿＿＿＿ですが、やくにたちます。 2. たいいんして",
+    "options": {
+      "a": "きびしい 3. にゅういんして",
+      "b": "さびしい"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL BANK JFT 2.pdf_B_14",
+    "topic": "Bank Soal JFT 2",
+    "source": "d.SOAL BANK JFT 2.pdf",
+    "category": "Vocabulary (Fill-in-blank)",
+    "section": "Section B",
+    "question_num": 14,
+    "question": "暗い山道を一人で歩くのは＿＿＿＿＿です。 2. たまに",
+    "options": {
+      "a": "かっこいい 3. あんぜんに",
+      "b": "きけん"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL BANK JFT 3.pdf_B_1",
+    "topic": "Bank Soal JFT 3",
+    "source": "d.SOAL BANK JFT 3.pdf",
+    "category": "Vocabulary (Fill-in-blank)",
+    "section": "Section B",
+    "question_num": 1,
+    "question": "スミスさんはいつも＿＿＿＿＿＿勉強しています。 3. あまり",
+    "options": {
+      "a": "だいじに",
+      "b": "まっすぐに 8) 車に＿＿＿＿＿を入れなければなりません。",
+      "c": "ねっしんに 1. アルコール"
+    },
+    "answer": ""
+  },
+  {
+    "id": "d.SOAL BANK JFT 3.pdf_B_2",
+    "topic": "Bank Soal JFT 3",
+    "source": "d.SOAL BANK JFT 3.pdf",
+    "category": "Vocabulary (Fill-in-blank)",
+    "section": "Section B",
+    "question_num": 2,
+    "question": "わたしは日本のマンガに＿＿＿＿＿があります。 3. ガソリン",
+    "options": {
+      "a": "きぶん",
+      "b": "きょうみ 9) きのうは＿＿＿＿＿ですが、今日はさむいです。",
+      "c": "しゅみ 1. あかるかった"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_2",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 2,
+    "question": "7.",
+    "options": {
+      "a": "こまります b. パスてい",
+      "b": "まもります c. バスてい",
+      "c": "まとめます 8."
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_5",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 5,
+    "question": "10.",
+    "options": {
+      "a": "きかい a. ながぐつ",
+      "b": "かいき b. ながくつ",
+      "c": "いきか c. たかくつ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_11",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 11,
+    "question": "今月のとおかにえんそくにいきます。",
+    "options": {
+      "a": "こんげつ",
+      "b": "こんがつ",
+      "c": "ほんげつ",
+      "d": "ほんがつ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_12",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 12,
+    "question": "北のまちに電車ででかけました。",
+    "options": {
+      "a": "てんしゃ",
+      "b": "てんじゃ",
+      "c": "でんしゃ",
+      "d": "でんじゃ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_13",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 13,
+    "question": "このかばんをだいじにつかっています。",
+    "options": {
+      "a": "大字",
+      "b": "大事",
+      "c": "犬字",
+      "d": "犬事"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_14",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 14,
+    "question": "あのえいがかんはおとがいいです。",
+    "options": {
+      "a": "眩写館",
+      "b": "映写館",
+      "c": "映画館",
+      "d": "眩画館"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_15",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 15,
+    "question": "ちちはいましんぶんを読んでいます。",
+    "options": {
+      "a": "よんで",
+      "b": "のんで",
+      "c": "とんで",
+      "d": "しんで"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_16",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 16,
+    "question": "父は目も耳もおおきい。",
+    "options": {
+      "a": "くち",
+      "b": "あたま",
+      "c": "みみ",
+      "d": "からだ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_17",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 17,
+    "question": "そのほんをみせてください。",
+    "options": {
+      "a": "目せて",
+      "b": "覚せて",
+      "c": "聞せて",
+      "d": "見せて"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_18",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 18,
+    "question": "わたしのこどもははながすきです。",
+    "options": {
+      "a": "衣",
+      "b": "芘",
+      "c": "笩",
+      "d": "花"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_19",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 19,
+    "question": "らいねん外国へりゅうがくにいきます。",
+    "options": {
+      "a": "がいこく",
+      "b": "がいごく",
+      "c": "かいこく",
+      "d": "かいごく"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_20",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 20,
+    "question": "妹の代わりに手紙を書きました。",
+    "options": {
+      "a": "いもと",
+      "b": "むすめ",
+      "c": "いもうと",
+      "d": "むすうめ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_21",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 21,
+    "question": "知らない人がさいふをひろってくれました。",
+    "options": {
+      "a": "広って",
+      "b": "拾って",
+      "c": "配って",
+      "d": "飼って"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_22",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 22,
+    "question": "外国にいくとき、りょこう案内や安全じょうほうをよくみてください。",
+    "options": {
+      "a": "えんない",
+      "b": "えんね",
+      "c": "あんない",
+      "d": "あんねい"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_23",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 23,
+    "question": "家でゲームやパソコンの画面に向かっているほうが楽だけど学校にはちゃんと通っている。",
+    "options": {
+      "a": "たたかって",
+      "b": "いかって",
+      "c": "さかって",
+      "d": "むかって"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_24",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 24,
+    "question": "きのう暇があって、家族といっしょに花見にいきました。",
+    "options": {
+      "a": "ひま",
+      "b": "とき",
+      "c": "じかん",
+      "d": "ま"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_25",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 25,
+    "question": "学校側がしょうせつ書いたくらいで、生徒を退学にするわけないじゃないの。",
+    "options": {
+      "a": "小脱",
+      "b": "小鋭",
+      "c": "小説",
+      "d": "小兄"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_26",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 26,
+    "question": "昨日より＿＿＿＿＿＿＿＿＿寒いですね。",
+    "options": {
+      "a": "今日ほど",
+      "b": "今日のほうが",
+      "c": "今日とおなじくらい",
+      "d": "今日とちがって"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_28",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 28,
+    "question": "コーヒーと紅茶と、＿＿＿＿＿＿＿＿＿ですか。",
+    "options": {
+      "a": "なんのほう",
+      "b": "どれがいい",
+      "c": "どっちのほう",
+      "d": "どちらがいい"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_29",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 29,
+    "question": "このスーパーは＿＿＿＿＿＿＿＿まで開いているので便利です。",
+    "options": {
+      "a": "やすく",
+      "b": "とおく",
+      "c": "おそく",
+      "d": "ひろく"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_30",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 30,
+    "question": "富士山はエベレスト＿＿＿＿＿＿＿＿＿＿＿＿。",
+    "options": {
+      "a": "より高い",
+      "b": "ほど高くない",
+      "c": "のほうが高い",
+      "d": "のようより高くない"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_31",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 31,
+    "question": "宿題は＿＿＿＿＿＿＿＿＿＿＿終わりましたか。",
+    "options": {
+      "a": "まだ",
+      "b": "もう",
+      "c": "あちで",
+      "d": "もうすぐ"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_32",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 32,
+    "question": "夜中に何度も目が＿＿＿＿＿＿＿＿＿。",
+    "options": {
+      "a": "あけました",
+      "b": "さめました",
+      "c": "とまりました",
+      "d": "おきました"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_34",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 34,
+    "question": "ご＿＿＿＿＿＿＿＿＿＿＿＿はお元気ですか。",
+    "options": {
+      "a": "いもうと",
+      "b": "かあさま",
+      "c": "おくさん",
+      "d": "りょうしん"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_36",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 36,
+    "question": "最近、タバコを＿＿＿＿＿＿＿＿＿人が減りましたね。",
+    "options": {
+      "a": "くう",
+      "b": "すう",
+      "c": "ふくはく"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_37",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 37,
+    "question": "＿＿＿＿＿＿＿＿＿ぜんぶ食べました。",
+    "options": {
+      "a": "のこしないで",
+      "b": "のこらないで",
+      "c": "のこさないで",
+      "d": "のこってないで"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_38",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 38,
+    "question": "＿＿＿＿＿＿＿が悪いんです。早く帰ってもいいですか。",
+    "options": {
+      "a": "からだ",
+      "b": "げんき",
+      "c": "くうき",
+      "d": "きぶん"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_39",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 39,
+    "question": "このゲームをしたいけれど、＿＿＿＿＿＿＿＿＿がわからない。",
+    "options": {
+      "a": "やりこと",
+      "b": "やりかた",
+      "c": "あそぶこと",
+      "d": "あそぶかた"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_40",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 40,
+    "question": "あのう、ここに＿＿＿＿＿＿＿＿＿いいですか。",
+    "options": {
+      "a": "すわっても",
+      "b": "さわっても",
+      "c": "まわって",
+      "d": "わって"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_41",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 41,
+    "question": "ジョンさんが日本語の勉強を始めたのはどうしてですか。",
+    "options": {
+      "a": "漢字をたくさんおぼえたかったから",
+      "b": "日本語でまんがを読みたいと思ったから",
+      "c": "友だちに日本のまんがをもらったから",
+      "d": "日本のまんがぜんぜんわからなかったから"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_42",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 42,
+    "question": "ジョンさんはまんがについてどう思っていますか。",
+    "options": {
+      "a": "日本語の勉強のためにどんなまんがでも読んだほうがいい",
+      "b": "サッカ−やバスケットボ−ルのまんが以外は読んではいけない。",
+      "c": "いろいろなまんががあるので、いいものだけえらんで読んだらいい。",
+      "d": "まんがばかり読むと人をいじめるようになるので、読まないほうがいい。"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_43",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 43,
+    "question": "（ ）には何を入れますか。",
+    "options": {
+      "a": "映画がきらいでも、毎日見ればわかるようになりますよ。",
+      "b": "日本語のまんがを読めば、漢字がおぼえられるようになりますよ。",
+      "c": "毎日れんしゅうすれば、サッカ−やバスケットボ−ルがじょうずになりますよ。",
+      "d": "英語を使って好きなことをすれば、勉強が楽しくなりますよ。"
+    },
+    "answer": ""
+  },
+  {
+    "id": "latihan_part11_45",
+    "topic": "Latihan Part 11",
+    "source": "d.SOAL LATIHAN PART 11.pdf",
+    "category": "Grammar",
+    "section": "Latihan",
+    "question_num": 45,
+    "question": "「しつもん」この人は、何ページ読みましたか。",
+    "options": {
+      "a": "５０ページぐらい",
+      "b": "１５０ページぐらい",
+      "c": "２００ページぐらい",
+      "d": "２５０ページぐらい"
+    },
+    "answer": ""
+  },
+  {
+    "id": "basic2_s1_2",
+    "topic": "JFT Basic2 - Sesi 1 - Script & Vocabulary",
+    "source": "d.soal.jft. soal jft basic2.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Sesi 1 - Script & Vocabulary",
+    "question_num": 2,
+    "question": "",
+    "options": {
+      "a": "こうえん",
+      "b": "ひろば",
+      "c": "いちば"
+    },
+    "answer": ""
+  },
+  {
+    "id": "basic2_s1_3",
+    "topic": "JFT Basic2 - Sesi 1 - Script & Vocabulary",
+    "source": "d.soal.jft. soal jft basic2.pdf",
+    "category": "Script & Vocabulary",
+    "section": "Sesi 1 - Script & Vocabulary",
+    "question_num": 3,
+    "question": "",
+    "options": {
+      "a": "きれい",
+      "b": "しずか",
+      "c": "にぎやか"
+    },
+    "answer": ""
+  }
+]

@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JFT Basic — 練習問題</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Syne:wght@400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0f0e0d;
+    --paper: #f5f0e8;
+    --cream: #ede8dc;
+    --red: #d63030;
+    --red-soft: #f5e0e0;
+    --green: #1a7a4a;
+    --green-soft: #d8f0e4;
+    --gold: #c8960a;
+    --gold-soft: #fdf3d0;
+    --muted: #7a7060;
+    --border: #d0c9b8;
+    --shadow: 0 2px 12px rgba(15,14,13,0.10);
+    --radius: 12px;
+    --font-ui: 'Syne', sans-serif;
+    --font-jp: 'Noto Sans JP', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-jp);
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* Subtle Japanese paper texture pattern */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: 
+      repeating-linear-gradient(0deg, transparent, transparent 39px, var(--border) 39px, var(--border) 40px),
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(208,201,184,0.3) 39px, rgba(208,201,184,0.3) 40px);
+    opacity: 0.18;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ============ HEADER ============ */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0 24px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+  }
+
+  .header-logo {
+    font-family: var(--font-ui);
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-logo .jp-tag {
+    background: var(--red);
+    color: white;
+    font-family: var(--font-jp);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+  }
+
+  .header-stats {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: rgba(245,240,232,0.6);
+    display: flex;
+    gap: 20px;
+  }
+
+  .header-stats span strong {
+    color: var(--paper);
+    font-size: 14px;
+  }
+
+  /* ============ MAIN LAYOUT ============ */
+  .app {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+
+  /* ============ SCREEN MANAGEMENT ============ */
+  .screen { display: none; }
+  .screen.active { display: block; }
+
+  /* ============ HOME SCREEN ============ */
+  .home-hero {
+    text-align: center;
+    padding: 48px 0 40px;
+  }
+
+  .home-hero h1 {
+    font-family: var(--font-ui);
+    font-size: clamp(40px, 8vw, 72px);
+    font-weight: 800;
+    line-height: 0.95;
+    letter-spacing: -3px;
+    margin-bottom: 8px;
+  }
+
+  .home-hero h1 .kanji-line {
+    display: block;
+    font-family: var(--font-jp);
+    font-size: clamp(22px, 4vw, 38px);
+    font-weight: 300;
+    letter-spacing: 8px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  .home-hero p {
+    color: var(--muted);
+    font-size: 15px;
+    margin-top: 16px;
+    line-height: 1.6;
+  }
+
+  /* Quick stats bar */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 32px 0;
+  }
+
+  .stat-card {
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+
+  .stat-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+
+  .stat-card .num {
+    font-family: var(--font-mono);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .stat-card .label {
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* Mode cards */
+  .mode-section h2 {
+    font-family: var(--font-ui);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+
+  .mode-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+
+  .mode-card {
+    background: white;
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px 20px;
+    cursor: pointer;
+    transition: all 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .mode-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--ink);
+    transform: translateY(100%);
+    transition: transform 0.2s;
+    z-index: 0;
+  }
+
+  .mode-card:hover::after { transform: translateY(0); }
+  .mode-card:hover .mode-icon, .mode-card:hover .mode-title, .mode-card:hover .mode-desc {
+    color: var(--paper);
+    position: relative;
+    z-index: 1;
+  }
+
+  .mode-icon { font-size: 28px; margin-bottom: 12px; display: block; transition: color 0.2s; }
+  .mode-title { font-family: var(--font-ui); font-size: 16px; font-weight: 700; margin-bottom: 6px; transition: color 0.2s; }
+  .mode-desc { font-size: 12px; color: var(--muted); line-height: 1.5; transition: color 0.2s; }
+
+  /* Topic grid */
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .topic-chip {
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.15s;
+    text-align: left;
+    font-family: var(--font-jp);
+  }
+
+  .topic-chip:hover { background: var(--ink); color: white; border-color: var(--ink); }
+  .topic-chip.selected { background: var(--ink); color: white; border-color: var(--ink); }
+  .topic-chip .topic-count { font-size: 11px; color: var(--muted); display: block; margin-top: 2px; }
+  .topic-chip.selected .topic-count { color: rgba(255,255,255,0.6); }
+
+  .start-btn {
+    width: 100%;
+    padding: 18px;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    border-radius: var(--radius);
+    font-family: var(--font-ui);
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.15s;
+    letter-spacing: 0.5px;
+  }
+
+  .start-btn:hover { background: var(--red); transform: translateY(-1px); }
+  .start-btn:active { transform: translateY(0); }
+  .start-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  /* ============ QUIZ SCREEN ============ */
+  .quiz-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    gap: 12px;
+  }
+
+  .quiz-back {
+    background: none;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: var(--font-ui);
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+
+  .quiz-back:hover { background: var(--ink); color: white; border-color: var(--ink); }
+
+  .progress-wrap {
+    flex: 1;
+    max-width: 400px;
+  }
+
+  .progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+
+  .progress-bar-bg {
+    height: 6px;
+    background: var(--cream);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .progress-bar-fill {
+    height: 100%;
+    background: var(--ink);
+    border-radius: 3px;
+    transition: width 0.4s ease;
+  }
+
+  .score-badge {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    white-space: nowrap;
+  }
+
+  .score-badge .correct { color: var(--green); font-weight: 700; }
+  .score-badge .wrong { color: var(--red); }
+
+  /* Question card */
+  .question-card {
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+    animation: slideIn 0.25s ease;
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .question-meta {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .meta-tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--cream);
+    color: var(--muted);
+    letter-spacing: 0.3px;
+  }
+
+  .meta-tag.topic { background: var(--gold-soft); color: var(--gold); }
+  .meta-tag.num { background: var(--ink); color: var(--paper); }
+
+  .question-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 28px;
+    font-family: var(--font-jp);
+    letter-spacing: 0.5px;
+  }
+
+  .question-text.has-blank {
+    background: var(--cream);
+    border-radius: 8px;
+    padding: 16px 20px;
+    border-left: 4px solid var(--gold);
+  }
+
+  .question-image-hint {
+    font-size: 14px;
+    color: var(--muted);
+    background: var(--cream);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 24px;
+    border-left: 4px solid var(--border);
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Options */
+  .options-grid {
+    display: grid;
+    gap: 10px;
+  }
+
+  .option-btn {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    background: var(--paper);
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: var(--font-jp);
+    font-size: 16px;
+    text-align: left;
+    transition: all 0.15s;
+    width: 100%;
+  }
+
+  .option-btn:hover:not(:disabled) {
+    background: var(--ink);
+    color: white;
+    border-color: var(--ink);
+    transform: translateX(4px);
+  }
+
+  .option-btn:hover:not(:disabled) .opt-key { background: white; color: var(--ink); }
+
+  .opt-key {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: var(--cream);
+    font-family: var(--font-mono);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    transition: all 0.15s;
+    flex-shrink: 0;
+  }
+
+  .option-btn.correct {
+    background: var(--green-soft);
+    border-color: var(--green);
+    color: var(--green);
+    pointer-events: none;
+  }
+
+  .option-btn.correct .opt-key { background: var(--green); color: white; }
+
+  .option-btn.wrong {
+    background: var(--red-soft);
+    border-color: var(--red);
+    color: var(--red);
+    pointer-events: none;
+    opacity: 0.7;
+  }
+
+  .option-btn.wrong .opt-key { background: var(--red); color: white; }
+
+  .option-btn.reveal-correct {
+    background: var(--green-soft);
+    border-color: var(--green);
+    color: var(--green);
+    pointer-events: none;
+  }
+
+  .option-btn.reveal-correct .opt-key { background: var(--green); color: white; }
+
+  .option-btn:disabled { cursor: default; }
+
+  /* Answer panel */
+  .answer-panel {
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 16px;
+    animation: slideIn 0.2s ease;
+    display: none;
+  }
+
+  .answer-panel.show { display: block; }
+
+  .answer-panel .result-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .result-badge {
+    font-family: var(--font-ui);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .result-badge.correct { background: var(--green-soft); color: var(--green); }
+  .result-badge.wrong { background: var(--red-soft); color: var(--red); }
+
+  .answer-detail {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .answer-ref {
+    background: var(--cream);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-top: 12px;
+    font-size: 13px;
+    border-left: 3px solid var(--gold);
+  }
+
+  .answer-ref strong { color: var(--ink); font-size: 14px; }
+
+  .next-btn {
+    width: 100%;
+    padding: 16px;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    border-radius: 10px;
+    font-family: var(--font-ui);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: all 0.15s;
+    letter-spacing: 0.5px;
+  }
+
+  .next-btn:hover { background: var(--red); }
+
+  /* ============ RESULTS SCREEN ============ */
+  .results-card {
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    margin-bottom: 24px;
+  }
+
+  .results-emoji { font-size: 56px; margin-bottom: 16px; display: block; }
+
+  .results-score {
+    font-family: var(--font-mono);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .results-score.excellent { color: var(--green); }
+  .results-score.good { color: var(--gold); }
+  .results-score.poor { color: var(--red); }
+
+  .results-label {
+    font-family: var(--font-ui);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 24px;
+  }
+
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .result-stat { }
+  .result-stat .num { font-family: var(--font-mono); font-size: 28px; font-weight: 700; }
+  .result-stat .lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .result-stat.c .num { color: var(--green); }
+  .result-stat.w .num { color: var(--red); }
+
+  /* Review list */
+  .review-section h2 {
+    font-family: var(--font-ui);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 14px;
+  }
+
+  .review-list { display: grid; gap: 10px; margin-bottom: 24px; }
+
+  .review-item {
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    gap: 14px;
+    align-items: start;
+  }
+
+  .review-item.correct-item { border-left: 4px solid var(--green); }
+  .review-item.wrong-item { border-left: 4px solid var(--red); }
+
+  .review-num {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--muted);
+    padding-top: 2px;
+  }
+
+  .review-q { font-size: 14px; line-height: 1.6; font-family: var(--font-jp); }
+  .review-q .q-text { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+
+  .review-ans {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .review-ans .your { color: var(--muted); }
+  .review-ans .correct-a { color: var(--green); font-weight: 700; }
+  .review-ans .wrong-a { color: var(--red); text-decoration: line-through; }
+
+  .action-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .btn-secondary {
+    padding: 15px;
+    background: white;
+    color: var(--ink);
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    font-family: var(--font-ui);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .btn-secondary:hover { background: var(--cream); border-color: var(--ink); }
+
+  .btn-primary {
+    padding: 15px;
+    background: var(--ink);
+    color: var(--paper);
+    border: 2px solid var(--ink);
+    border-radius: 10px;
+    font-family: var(--font-ui);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .btn-primary:hover { background: var(--red); border-color: var(--red); }
+
+  /* ============ FILTER ROW ============ */
+  .filter-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .filter-row label {
+    font-family: var(--font-ui);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+  }
+
+  .filter-select {
+    padding: 8px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: var(--font-jp);
+    font-size: 13px;
+    background: white;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M0 0l6 8 6-8z' fill='%237a7060'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
+  }
+
+  .num-select {
+    padding: 8px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    background: white;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M0 0l6 8 6-8z' fill='%237a7060'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
+  }
+
+  /* Shuffle toggle */
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+
+  .toggle {
+    position: relative;
+    width: 38px;
+    height: 22px;
+    cursor: pointer;
+  }
+
+  .toggle input { opacity: 0; width: 0; height: 0; }
+
+  .toggle-slider {
+    position: absolute;
+    inset: 0;
+    background: var(--border);
+    border-radius: 11px;
+    transition: background 0.2s;
+  }
+
+  .toggle-slider::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  }
+
+  .toggle input:checked + .toggle-slider { background: var(--ink); }
+  .toggle input:checked + .toggle-slider::before { transform: translateX(16px); }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .stats-bar { grid-template-columns: repeat(3, 1fr); }
+    .stat-card .num { font-size: 24px; }
+    .question-card { padding: 20px; }
+    .question-text { font-size: 17px; }
+    .results-score { font-size: 54px; }
+    .results-card { padding: 28px 20px; }
+    .action-btns { grid-template-columns: 1fr; }
+    .header-stats { display: none; }
+    .results-grid { grid-template-columns: repeat(3, 1fr); }
+    .mode-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  /* ============ TOAST ============ */
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(80px);
+    background: var(--ink);
+    color: var(--paper);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: var(--font-ui);
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 999;
+    transition: transform 0.3s;
+    white-space: nowrap;
+  }
+  .toast.show { transform: translateX(-50%) translateY(0); }
+
+  /* Keyboard hints */
+  .kbd-hint {
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 12px;
+  }
+  .kbd {
+    display: inline-block;
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 11px;
+  }
+
+  /* No questions notice */
+  .no-qs {
+    text-align: center;
+    padding: 48px;
+    color: var(--muted);
+    font-size: 15px;
+    background: white;
+    border-radius: var(--radius);
+    border: 1.5px dashed var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-logo">
+    <span class="jp-tag">JFT</span>
+    練習問題
+  </div>
+  <div class="header-stats">
+    <span>Total Soal: <strong id="hdr-total">0</strong></span>
+    <span>Dikerjakan: <strong id="hdr-done">0</strong></span>
+    <span>Akurasi: <strong id="hdr-acc">—</strong></span>
+  </div>
+</header>
+
+<main class="app">
+
+  <!-- ========== HOME SCREEN ========== -->
+  <div id="screen-home" class="screen active">
+    <div class="home-hero">
+      <h1>
+        JFT Basic
+        <span class="kanji-line">日本語テスト練習</span>
+      </h1>
+      <p>Latihan soal JFT Basic A2 · Berdasarkan bank soal resmi<br>Pilih topik, atur jumlah soal, dan mulai latihan!</p>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="num" id="total-questions">0</div>
+        <div class="label">Total Soal</div>
+      </div>
+      <div class="stat-card">
+        <div class="num" id="total-topics">0</div>
+        <div class="label">Topik</div>
+      </div>
+      <div class="stat-card">
+        <div class="num" id="best-score">—</div>
+        <div class="label">Skor Terbaik</div>
+      </div>
+    </div>
+
+    <div class="mode-section">
+      <h2>Mode Latihan</h2>
+      <div class="mode-grid">
+        <div class="mode-card" onclick="setMode('all')">
+          <span class="mode-icon">🎯</span>
+          <div class="mode-title">Semua Soal</div>
+          <div class="mode-desc">Latihan dari seluruh bank soal secara acak</div>
+        </div>
+        <div class="mode-card" onclick="setMode('topic')">
+          <span class="mode-icon">📚</span>
+          <div class="mode-title">Per Topik</div>
+          <div class="mode-desc">Pilih topik tertentu untuk fokus berlatih</div>
+        </div>
+        <div class="mode-card" onclick="setMode('wrong')">
+          <span class="mode-icon">🔁</span>
+          <div class="mode-title">Ulangi Salah</div>
+          <div class="mode-desc">Latihan ulang soal yang pernah salah</div>
+        </div>
+        <div class="mode-card" onclick="setMode('category')">
+          <span class="mode-icon">🗂️</span>
+          <div class="mode-title">Per Kategori</div>
+          <div class="mode-desc">Filter berdasarkan jenis soal (Vocab, Grammar, dll)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Topic picker (shown when mode=topic) -->
+    <div id="topic-picker" class="mode-section" style="display:none">
+      <h2>Pilih Topik</h2>
+      <div class="topic-grid" id="topic-grid"></div>
+    </div>
+
+    <!-- Category picker (shown when mode=category) -->
+    <div id="category-picker" class="mode-section" style="display:none">
+      <h2>Pilih Kategori</h2>
+      <div class="topic-grid" id="category-grid"></div>
+    </div>
+
+    <div class="mode-section">
+      <h2>Pengaturan</h2>
+      <div class="filter-row">
+        <label>Jumlah Soal</label>
+        <select class="num-select" id="num-questions">
+          <option value="10">10 soal</option>
+          <option value="20" selected>20 soal</option>
+          <option value="30">30 soal</option>
+          <option value="50">50 soal</option>
+          <option value="9999">Semua</option>
+        </select>
+      </div>
+
+      <div class="toggle-row">
+        <label class="toggle">
+          <input type="checkbox" id="shuffle-toggle" checked>
+          <span class="toggle-slider"></span>
+        </label>
+        <span>Acak urutan soal</span>
+      </div>
+
+      <div class="toggle-row">
+        <label class="toggle">
+          <input type="checkbox" id="only-answered-toggle">
+          <span class="toggle-slider"></span>
+        </label>
+        <span>Hanya soal dengan kunci jawaban</span>
+      </div>
+    </div>
+
+    <button class="start-btn" onclick="startQuiz()" id="start-btn">
+      Mulai Latihan →
+    </button>
+  </div>
+
+  <!-- ========== QUIZ SCREEN ========== -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-header">
+      <button class="quiz-back" onclick="confirmBack()">← Kembali</button>
+      <div class="progress-wrap">
+        <div class="progress-info">
+          <span id="q-progress">Soal 1 dari 20</span>
+          <span id="q-topic-label"></span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+        </div>
+      </div>
+      <div class="score-badge">
+        <span class="correct" id="score-correct">0</span> /
+        <span class="wrong" id="score-wrong">0</span>
+      </div>
+    </div>
+
+    <div class="question-card" id="question-card">
+      <div class="question-meta" id="q-meta"></div>
+      <div id="q-image-hint" class="question-image-hint" style="display:none">
+        🖼 Soal ini merujuk pada gambar/ilustrasi di modul cetak. Pilih jawaban yang paling tepat berdasarkan konteks.
+      </div>
+      <div class="question-text" id="q-text"></div>
+      <div class="options-grid" id="options-container"></div>
+    </div>
+
+    <div class="answer-panel" id="answer-panel">
+      <div class="result-row">
+        <span class="result-badge" id="result-badge">—</span>
+        <span id="result-text"></span>
+      </div>
+      <div class="answer-ref">
+        <strong>Kunci Jawaban: </strong><span id="answer-ref-text"></span>
+      </div>
+      <div class="answer-detail" id="answer-detail"></div>
+    </div>
+
+    <div class="kbd-hint">
+      Tekan <span class="kbd">A</span> <span class="kbd">B</span> <span class="kbd">C</span> <span class="kbd">D</span> untuk memilih · <span class="kbd">Enter</span> atau <span class="kbd">Space</span> untuk lanjut
+    </div>
+
+    <button class="next-btn" id="next-btn" onclick="nextQuestion()" style="display:none">
+      Soal Berikutnya →
+    </button>
+  </div>
+
+  <!-- ========== RESULTS SCREEN ========== -->
+  <div id="screen-results" class="screen">
+    <div class="results-card">
+      <span class="results-emoji" id="result-emoji">🎉</span>
+      <div class="results-score" id="result-score-pct">0%</div>
+      <div class="results-label" id="result-label">Hasil Latihan</div>
+
+      <div class="results-grid">
+        <div class="result-stat c">
+          <div class="num" id="res-correct">0</div>
+          <div class="lbl">Benar ✓</div>
+        </div>
+        <div class="result-stat w">
+          <div class="num" id="res-wrong">0</div>
+          <div class="lbl">Salah ✗</div>
+        </div>
+        <div class="result-stat">
+          <div class="num" id="res-total">0</div>
+          <div class="lbl">Total Soal</div>
+        </div>
+      </div>
+
+      <div class="action-btns">
+        <button class="btn-secondary" onclick="retryQuiz()">🔁 Ulangi</button>
+        <button class="btn-primary" onclick="showHome()">🏠 Kembali</button>
+      </div>
+    </div>
+
+    <div class="review-section">
+      <h2>Review Jawaban</h2>
+      <div class="review-list" id="review-list"></div>
+    </div>
+  </div>
+
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ==================== DATA ====================
+let QUESTIONS = [];
+let sessionStats = JSON.parse(localStorage.getItem('jft_stats') || '{"done":0,"correct":0,"wrong":[],"best":0}');
+
+// Load questions.json
+fetch('questions.json')
+  .then(r => r.json())
+  .then(data => {
+    QUESTIONS = data;
+    initApp();
+  })
+  .catch(() => {
+    // Fallback: inline minimal dataset if fetch fails
+    QUESTIONS = [];
+    initApp();
+    showToast('Gagal memuat soal. Pastikan file questions.json tersedia.');
+  });
+
+// ==================== STATE ====================
+let currentMode = 'all';
+let selectedTopics = new Set();
+let selectedCategories = new Set();
+let quizQuestions = [];
+let currentIndex = 0;
+let correctCount = 0;
+let wrongCount = 0;
+let answered = false;
+let quizResults = [];
+
+// ==================== INIT ====================
+function initApp() {
+  document.getElementById('total-questions').textContent = QUESTIONS.length;
+
+  const topics = [...new Set(QUESTIONS.map(q => q.topic))].sort();
+  document.getElementById('total-topics').textContent = topics.length;
+
+  document.getElementById('hdr-total').textContent = QUESTIONS.length;
+  document.getElementById('hdr-done').textContent = sessionStats.done;
+
+  if (sessionStats.best > 0) {
+    document.getElementById('best-score').textContent = sessionStats.best + '%';
+  }
+
+  updateHeaderAcc();
+
+  // Build topic grid
+  const topicGrid = document.getElementById('topic-grid');
+  topicGrid.innerHTML = '';
+  const topicCounts = {};
+  QUESTIONS.forEach(q => topicCounts[q.topic] = (topicCounts[q.topic] || 0) + 1);
+
+  topics.forEach(t => {
+    const chip = document.createElement('button');
+    chip.className = 'topic-chip';
+    chip.innerHTML = `${t}<span class="topic-count">${topicCounts[t]} soal</span>`;
+    chip.onclick = () => toggleTopic(t, chip);
+    topicGrid.appendChild(chip);
+  });
+
+  // Build category grid
+  const catGrid = document.getElementById('category-grid');
+  catGrid.innerHTML = '';
+  const catCounts = {};
+  QUESTIONS.forEach(q => catCounts[q.category] = (catCounts[q.category] || 0) + 1);
+
+  Object.entries(catCounts).sort().forEach(([cat, cnt]) => {
+    const chip = document.createElement('button');
+    chip.className = 'topic-chip';
+    chip.innerHTML = `${cat}<span class="topic-count">${cnt} soal</span>`;
+    chip.dataset.cat = cat;
+    chip.onclick = () => toggleCategory(cat, chip);
+    catGrid.appendChild(chip);
+  });
+
+  // Keyboard nav
+  document.addEventListener('keydown', handleKeyboard);
+}
+
+function updateHeaderAcc() {
+  const total = sessionStats.done;
+  const correct = sessionStats.correct;
+  if (total > 0) {
+    document.getElementById('hdr-acc').textContent = Math.round(correct / total * 100) + '%';
+  }
+  document.getElementById('hdr-done').textContent = total;
+}
+
+// ==================== MODE SELECTION ====================
+function setMode(mode) {
+  currentMode = mode;
+  document.getElementById('topic-picker').style.display = mode === 'topic' ? 'block' : 'none';
+  document.getElementById('category-picker').style.display = mode === 'category' ? 'block' : 'none';
+
+  if (mode === 'wrong') {
+    if (sessionStats.wrong.length === 0) {
+      showToast('Belum ada soal yang salah!');
+      currentMode = 'all';
+      return;
+    }
+    showToast(`${sessionStats.wrong.length} soal yang pernah salah ditemukan`);
+  }
+
+  // Highlight active mode card
+  document.querySelectorAll('.mode-card').forEach((el, i) => {
+    const modes = ['all', 'topic', 'wrong', 'category'];
+    el.style.outline = modes[i] === mode ? '3px solid var(--ink)' : '';
+  });
+}
+
+function toggleTopic(topic, chip) {
+  if (selectedTopics.has(topic)) {
+    selectedTopics.delete(topic);
+    chip.classList.remove('selected');
+  } else {
+    selectedTopics.add(topic);
+    chip.classList.add('selected');
+  }
+}
+
+function toggleCategory(cat, chip) {
+  if (selectedCategories.has(cat)) {
+    selectedCategories.delete(cat);
+    chip.classList.remove('selected');
+  } else {
+    selectedCategories.add(cat);
+    chip.classList.add('selected');
+  }
+}
+
+// ==================== START QUIZ ====================
+function startQuiz() {
+  const numQ = parseInt(document.getElementById('num-questions').value);
+  const shuffle = document.getElementById('shuffle-toggle').checked;
+  const onlyAnswered = document.getElementById('only-answered-toggle').checked;
+
+  let pool = [...QUESTIONS];
+
+  // Filter by mode
+  if (currentMode === 'topic' && selectedTopics.size > 0) {
+    pool = pool.filter(q => selectedTopics.has(q.topic));
+  } else if (currentMode === 'category' && selectedCategories.size > 0) {
+    pool = pool.filter(q => selectedCategories.has(q.category));
+  } else if (currentMode === 'wrong') {
+    pool = pool.filter(q => sessionStats.wrong.includes(q.id));
+  }
+
+  if (onlyAnswered) {
+    pool = pool.filter(q => q.answer);
+  }
+
+  if (pool.length === 0) {
+    showToast('Tidak ada soal yang sesuai filter!');
+    return;
+  }
+
+  if (shuffle) {
+    pool = pool.sort(() => Math.random() - 0.5);
+  }
+
+  quizQuestions = pool.slice(0, numQ);
+  currentIndex = 0;
+  correctCount = 0;
+  wrongCount = 0;
+  quizResults = [];
+
+  showScreen('quiz');
+  renderQuestion();
+}
+
+// ==================== RENDER QUESTION ====================
+function renderQuestion() {
+  const q = quizQuestions[currentIndex];
+  answered = false;
+
+  // Progress
+  document.getElementById('q-progress').textContent = `Soal ${currentIndex + 1} dari ${quizQuestions.length}`;
+  document.getElementById('q-topic-label').textContent = q.topic;
+  const pct = (currentIndex / quizQuestions.length) * 100;
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('score-correct').textContent = correctCount;
+  document.getElementById('score-wrong').textContent = wrongCount;
+
+  // Meta tags
+  const meta = document.getElementById('q-meta');
+  meta.innerHTML = `
+    <span class="meta-tag num">No. ${q.question_num}</span>
+    <span class="meta-tag topic">${q.topic}</span>
+    <span class="meta-tag">${q.category}</span>
+  `;
+
+  // Question text
+  const qText = document.getElementById('q-text');
+  const qHint = document.getElementById('q-image-hint');
+
+  if (q.question && q.question.length > 3) {
+    qText.textContent = q.question;
+    qText.className = 'question-text' + (q.question.includes('＿') || q.question.includes('（）') || q.question.includes('（ ）') ? ' has-blank' : '');
+    qHint.style.display = 'none';
+  } else {
+    qText.textContent = '';
+    qText.className = 'question-text';
+    qHint.style.display = 'flex';
+  }
+
+  // Options
+  const container = document.getElementById('options-container');
+  container.innerHTML = '';
+  const optEntries = Object.entries(q.options);
+  optEntries.forEach(([key, val]) => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.dataset.key = key;
+    btn.innerHTML = `<span class="opt-key">${key}</span><span>${val}</span>`;
+    btn.onclick = () => selectAnswer(key, btn);
+    container.appendChild(btn);
+  });
+
+  // Hide answer panel and next btn
+  document.getElementById('answer-panel').classList.remove('show');
+  document.getElementById('next-btn').style.display = 'none';
+
+  // Animate card
+  const card = document.getElementById('question-card');
+  card.style.animation = 'none';
+  card.offsetHeight;
+  card.style.animation = 'slideIn 0.25s ease';
+}
+
+// ==================== SELECT ANSWER ====================
+function selectAnswer(selectedKey, clickedBtn) {
+  if (answered) return;
+  answered = true;
+
+  const q = quizQuestions[currentIndex];
+  const isCorrect = selectedKey === q.answer || !q.answer; // If no answer key, count as practice
+  const hasKey = !!q.answer;
+
+  // Style buttons
+  document.querySelectorAll('.option-btn').forEach(btn => {
+    btn.disabled = true;
+    const btnKey = btn.dataset.key;
+    if (btnKey === selectedKey) {
+      btn.classList.add(isCorrect ? 'correct' : 'wrong');
+    }
+    if (!isCorrect && btnKey === q.answer && hasKey) {
+      btn.classList.add('reveal-correct');
+    }
+  });
+
+  // Update counts
+  if (hasKey) {
+    if (isCorrect) {
+      correctCount++;
+      sessionStats.correct++;
+      // Remove from wrong list if it was there
+      sessionStats.wrong = sessionStats.wrong.filter(id => id !== q.id);
+    } else {
+      wrongCount++;
+      if (!sessionStats.wrong.includes(q.id)) {
+        sessionStats.wrong.push(q.id);
+      }
+    }
+    sessionStats.done++;
+    saveStats();
+    updateHeaderAcc();
+  }
+
+  // Store result
+  quizResults.push({
+    question: q,
+    selected: selectedKey,
+    correct: isCorrect,
+    hasKey
+  });
+
+  // Show answer panel
+  const panel = document.getElementById('answer-panel');
+  panel.classList.add('show');
+
+  const badge = document.getElementById('result-badge');
+  const resultText = document.getElementById('result-text');
+  const refText = document.getElementById('answer-ref-text');
+  const detailText = document.getElementById('answer-detail');
+
+  if (!hasKey) {
+    badge.textContent = '📝 Latihan';
+    badge.className = 'result-badge';
+    badge.style.background = 'var(--gold-soft)';
+    badge.style.color = 'var(--gold)';
+    resultText.textContent = 'Soal ini tidak memiliki kunci jawaban resmi.';
+    refText.textContent = 'Tidak tersedia — cek buku/modul referensi';
+    detailText.textContent = '';
+  } else if (isCorrect) {
+    badge.textContent = '✓ Benar!';
+    badge.className = 'result-badge correct';
+    resultText.textContent = 'Jawaban kamu tepat!';
+    refText.innerHTML = `<strong>${q.answer.toUpperCase()}.</strong> ${q.options[q.answer] || ''}`;
+    detailText.textContent = '';
+  } else {
+    badge.textContent = '✗ Salah';
+    badge.className = 'result-badge wrong';
+    resultText.textContent = `Kamu memilih ${selectedKey.toUpperCase()}.`;
+    refText.innerHTML = `Jawaban benar: <strong>${q.answer.toUpperCase()}.</strong> ${q.options[q.answer] || ''}`;
+    detailText.textContent = `Kamu pilih: ${selectedKey.toUpperCase()}. ${q.options[selectedKey] || ''}`;
+  }
+
+  // Show next button
+  const nextBtn = document.getElementById('next-btn');
+  nextBtn.style.display = 'block';
+  const isLast = currentIndex === quizQuestions.length - 1;
+  nextBtn.textContent = isLast ? 'Lihat Hasil →' : 'Soal Berikutnya →';
+
+  // Scroll to answer panel
+  setTimeout(() => {
+    panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }, 100);
+}
+
+// ==================== NEXT QUESTION ====================
+function nextQuestion() {
+  if (currentIndex < quizQuestions.length - 1) {
+    currentIndex++;
+    renderQuestion();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } else {
+    showResults();
+  }
+}
+
+// ==================== RESULTS ====================
+function showResults() {
+  const total = quizResults.filter(r => r.hasKey).length;
+  const correct = quizResults.filter(r => r.correct && r.hasKey).length;
+  const wrong = total - correct;
+  const pct = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  if (pct > sessionStats.best) {
+    sessionStats.best = pct;
+    document.getElementById('best-score').textContent = pct + '%';
+    saveStats();
+  }
+
+  // Emoji and color
+  let emoji, scoreClass, label;
+  if (pct >= 80) { emoji = '🎉'; scoreClass = 'excellent'; label = 'Luar Biasa! '; }
+  else if (pct >= 60) { emoji = '👍'; scoreClass = 'good'; label = 'Bagus! '; }
+  else { emoji = '📖'; scoreClass = 'poor'; label = 'Terus Berlatih! '; }
+
+  document.getElementById('result-emoji').textContent = emoji;
+  document.getElementById('result-score-pct').textContent = pct + '%';
+  document.getElementById('result-score-pct').className = 'results-score ' + scoreClass;
+  document.getElementById('result-label').textContent = label + `(${correct}/${total} benar)`;
+  document.getElementById('res-correct').textContent = correct;
+  document.getElementById('res-wrong').textContent = wrong;
+  document.getElementById('res-total').textContent = quizResults.length;
+
+  // Review list
+  const reviewList = document.getElementById('review-list');
+  reviewList.innerHTML = '';
+
+  quizResults.forEach((r, i) => {
+    const q = r.question;
+    const item = document.createElement('div');
+    item.className = 'review-item ' + (r.correct ? 'correct-item' : 'wrong-item');
+
+    const qDisplay = q.question && q.question.length > 3
+      ? `<div class="q-text">${q.question.slice(0, 60)}${q.question.length > 60 ? '…' : ''}</div>`
+      : `<div class="q-text" style="font-style:italic;font-size:12px">Soal gambar — ${q.category}</div>`;
+
+    const optDisplay = Object.entries(q.options).map(([k, v]) =>
+      `${k.toUpperCase()}. ${v}`
+    ).join(' · ');
+
+    const ansDisplay = r.hasKey
+      ? (r.correct
+        ? `<div class="your correct-a">${r.selected.toUpperCase()} ✓</div>`
+        : `<div class="wrong-a your">${r.selected.toUpperCase()}</div><div class="correct-a">${q.answer.toUpperCase()} ✓</div>`)
+      : `<div style="color:var(--muted);font-size:11px">Latihan</div>`;
+
+    item.innerHTML = `
+      <div class="review-num">#${i+1}</div>
+      <div class="review-q">
+        ${qDisplay}
+        <div style="font-size:12px;color:var(--muted);margin-top:4px">${optDisplay.slice(0, 80)}…</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:4px">${q.topic} · No.${q.question_num}</div>
+      </div>
+      <div class="review-ans">${ansDisplay}</div>
+    `;
+    reviewList.appendChild(item);
+  });
+
+  showScreen('results');
+}
+
+function retryQuiz() {
+  currentIndex = 0;
+  correctCount = 0;
+  wrongCount = 0;
+  quizResults = [];
+  // Reshuffle
+  quizQuestions = quizQuestions.sort(() => Math.random() - 0.5);
+  showScreen('quiz');
+  renderQuestion();
+}
+
+function showHome() {
+  showScreen('home');
+}
+
+function confirmBack() {
+  if (currentIndex > 0 && !answered) {
+    if (!confirm('Progress kuis akan hilang. Yakin kembali?')) return;
+  }
+  showHome();
+}
+
+// ==================== KEYBOARD NAV ====================
+function handleKeyboard(e) {
+  const screen = document.querySelector('.screen.active');
+  if (!screen || screen.id !== 'screen-quiz') return;
+
+  if (!answered) {
+    const keyMap = { 'a': 'a', 'b': 'b', 'c': 'c', 'd': 'd', '1': 'a', '2': 'b', '3': 'c', '4': 'd' };
+    const key = keyMap[e.key.toLowerCase()];
+    if (key) {
+      const btn = document.querySelector(`.option-btn[data-key="${key}"]`);
+      if (btn && !btn.disabled) btn.click();
+    }
+  } else {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      const nextBtn = document.getElementById('next-btn');
+      if (nextBtn.style.display !== 'none') nextBtn.click();
+    }
+  }
+}
+
+// ==================== UTILITIES ====================
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  window.scrollTo({ top: 0 });
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2800);
+}
+
+function saveStats() {
+  // Keep wrong list at max 200
+  if (sessionStats.wrong.length > 200) {
+    sessionStats.wrong = sessionStats.wrong.slice(-200);
+  }
+  localStorage.setItem('jft_stats', JSON.stringify(sessionStats));
+}
+</script>
+</body>
+</html>
