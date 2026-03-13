@@ -1252,6 +1252,7 @@
 <script>
 // ==================== DATA ====================
 let QUESTIONS = [];
+let IMAGE_MAP = {};
 let sessionStats = JSON.parse(localStorage.getItem('jft_stats') || '{"done":0,"correct":0,"wrong":[],"best":0}');
 
 // ==================== LOAD QUESTIONS ====================
@@ -1265,16 +1266,22 @@ async function loadQuestions() {
     sub.textContent = 'Mengunduh data soal...';
     bar.style.width = '10%';
 
-    const res = await fetch('questions.json');
-    if (!res.ok) throw new Error('Gagal memuat questions.json');
+    sub.textContent = 'Mengunduh soal dan gambar...';
+    const [qRes, imgRes] = await Promise.all([
+      fetch('questions.json'),
+      fetch('images.json')
+    ]);
+    if (!qRes.ok) throw new Error('Gagal memuat questions.json');
+    if (!imgRes.ok) throw new Error('Gagal memuat images.json');
 
     bar.style.width = '50%';
-    sub.textContent = 'Memproses soal...';
+    sub.textContent = 'Memproses data...';
 
-    QUESTIONS = await res.json();
+    QUESTIONS = await qRes.json();
+    IMAGE_MAP = await imgRes.json();
 
     bar.style.width = '90%';
-    const imgCount = QUESTIONS.filter(q => q.image).length;
+    const imgCount = QUESTIONS.filter(q => q.page_image).length;
     sub.textContent = `${QUESTIONS.length} soal & ${imgCount} gambar siap!`;
 
     await new Promise(r => setTimeout(r, 300));
@@ -1461,8 +1468,9 @@ function renderQuestion() {
   qHint.style.display = 'none';
 
   // Show per-question illustration image
-  if (q.image) {
-    pageImg.src = q.image;
+  const imgSrc = q.page_image ? IMAGE_MAP[q.page_image] : null;
+  if (imgSrc) {
+    pageImg.src = imgSrc;
     pageImgWrap.style.display = 'block';
   }
 
@@ -1704,7 +1712,7 @@ function showResults() {
     const item = document.createElement('div');
     item.className = 'review-item ' + (r.correct ? 'c' : 'w');
 
-    const qDisplay = q.image
+    const qDisplay = q.page_image
       ? `<div class="q-text" style="font-style:italic;font-size:12px">🖼 Soal gambar — ${q.topic}</div>`
       : q.question && q.question.length > 3
         ? `<div class="q-text">${q.question.slice(0, 60)}${q.question.length > 60 ? '…' : ''}</div>`
