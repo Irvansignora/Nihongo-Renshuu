@@ -1255,8 +1255,6 @@ let QUESTIONS = [];
 let sessionStats = JSON.parse(localStorage.getItem('jft_stats') || '{"done":0,"correct":0,"wrong":[],"best":0}');
 
 // ==================== LOAD QUESTIONS ====================
-let IMAGE_MAP = {};
-
 async function loadQuestions() {
   const overlay = document.getElementById('loading-overlay');
   const bar = document.getElementById('loading-bar');
@@ -1264,31 +1262,20 @@ async function loadQuestions() {
   overlay.classList.remove('hidden');
 
   try {
-    // Load questions and images in parallel
     sub.textContent = 'Mengunduh data soal...';
-    bar.style.width = '8%';
+    bar.style.width = '10%';
 
-    const [resQ, resI] = await Promise.all([
-      fetch('questions.json'),
-      fetch('images.json')
-    ]);
+    const res = await fetch('questions.json');
+    if (!res.ok) throw new Error('Gagal memuat questions.json');
 
-    if (!resQ.ok) throw new Error('Gagal memuat questions.json');
-    if (!resI.ok) throw new Error('Gagal memuat images.json');
+    bar.style.width = '50%';
+    sub.textContent = 'Memproses soal...';
 
-    bar.style.width = '40%';
-    sub.textContent = 'Memproses data...';
-
-    const [questions, images] = await Promise.all([
-      resQ.json(),
-      resI.json()
-    ]);
-
-    QUESTIONS = questions;
-    IMAGE_MAP = images;
+    QUESTIONS = await res.json();
 
     bar.style.width = '90%';
-    sub.textContent = `${QUESTIONS.length} soal & ${Object.keys(IMAGE_MAP).length} gambar siap!`;
+    const imgCount = QUESTIONS.filter(q => q.image).length;
+    sub.textContent = `${QUESTIONS.length} soal & ${imgCount} gambar siap!`;
 
     await new Promise(r => setTimeout(r, 300));
     bar.style.width = '100%';
@@ -1473,10 +1460,9 @@ function renderQuestion() {
   audioPlayer.style.display = 'none';
   qHint.style.display = 'none';
 
-  // Show page image if available (resolve key from IMAGE_MAP)
-  if (q.page_image) {
-    const imgSrc = IMAGE_MAP[q.page_image] || q.page_image;
-    pageImg.src = imgSrc;
+  // Show per-question illustration image
+  if (q.image) {
+    pageImg.src = q.image;
     pageImgWrap.style.display = 'block';
   }
 
@@ -1718,8 +1704,8 @@ function showResults() {
     const item = document.createElement('div');
     item.className = 'review-item ' + (r.correct ? 'c' : 'w');
 
-    const qDisplay = q.page_image
-      ? `<div class="q-text" style="font-style:italic;font-size:12px">📷 Soal gambar — ${q.topic}</div>`
+    const qDisplay = q.image
+      ? `<div class="q-text" style="font-style:italic;font-size:12px">🖼 Soal gambar — ${q.topic}</div>`
       : q.question && q.question.length > 3
         ? `<div class="q-text">${q.question.slice(0, 60)}${q.question.length > 60 ? '…' : ''}</div>`
         : `<div class="q-text" style="font-style:italic;font-size:12px">Soal gambar — ${q.category}</div>`;
