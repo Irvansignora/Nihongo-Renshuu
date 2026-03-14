@@ -1394,13 +1394,13 @@ function setMode(mode) {
 }
 
 function toggleTopic(t, chip) {
-  if (selectedTopics.has(t)) { selectedTopics.delete(t); chip.classList.remove('active'); }
-  else { selectedTopics.add(t); chip.classList.add('active'); }
+  if (selectedTopics.has(t)) { selectedTopics.delete(t); chip.classList.remove('selected'); }
+  else { selectedTopics.add(t); chip.classList.add('selected'); }
 }
 
 function toggleCategory(cat, chip) {
-  if (selectedCategories.has(cat)) { selectedCategories.delete(cat); chip.classList.remove('active'); }
-  else { selectedCategories.add(cat); chip.classList.add('active'); }
+  if (selectedCategories.has(cat)) { selectedCategories.delete(cat); chip.classList.remove('selected'); }
+  else { selectedCategories.add(cat); chip.classList.add('selected'); }
 }
 
 // ==================== START QUIZ ====================
