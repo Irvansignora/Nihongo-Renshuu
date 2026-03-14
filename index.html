@@ -1479,30 +1479,28 @@ function renderQuestion() {
     pageImgWrap.style.display = 'block';
   }
 
-  // Show passage
+  // Show passage (dialog Jepang untuk Choukai)
   if (q.passage && q.passage.length > 3) {
     passageEl.style.display = 'block';
     passageEl.textContent = q.passage;
+    // Style khusus untuk Choukai: teks dialog Jepang
+    if (q.category === 'Choukai (Listening)') {
+      passageEl.style.fontFamily = 'inherit';
+      passageEl.style.whiteSpace = 'pre-line';
+    }
   }
 
   // Show audio player for Choukai
   if (q.category === 'Choukai (Listening)') {
-    const audioText = q.passage || q.question || '';
-    // Detect if options are image-placeholders (A/B/C/D)
-    const hasImageOpts = q.options && Object.values(q.options).every(v => /^[A-D]$/i.test(v.trim()));
-    let preview;
-    if (audioText && audioText.length > 2) {
-      preview = audioText.length > 60 ? audioText.slice(0, 60) + '…' : audioText;
-    } else if (hasImageOpts) {
-      preview = 'Lihat gambar pilihan A/B/C/D di soal';
-    } else {
-      preview = 'Soal mendengarkan — pilih jawaban yang tepat';
-    }
+    const audioText = q.passage || '';
+    const preview = audioText.length > 2
+      ? (audioText.length > 70 ? audioText.slice(0, 70) + '…' : audioText)
+      : '—';
     document.getElementById('audio-text-preview').textContent = preview;
     audioPlayer.style.display = 'flex';
-    // Only auto-play if there is actual text to speak
+    // Auto-play if passage exists
     if (audioText && audioText.length > 2) {
-      setTimeout(() => playAudio(), 600);
+      setTimeout(() => playAudio(), 700);
     }
   }
 
@@ -1510,12 +1508,10 @@ function renderQuestion() {
   if (q.question && q.question.length > 2) {
     qText.textContent = q.question;
     qText.className = 'question-text' + (q.question.includes('＿') || q.question.includes('（）') || q.question.includes('（ ）') || q.question.includes('__') ? ' has-blank' : '');
-  } else if (!q.page_image && !q.passage) {
+  } else if (!q.page_image && !q.passage && q.category !== 'Choukai (Listening)') {
     qText.textContent = '';
     qText.className = 'question-text';
-    if (q.category !== 'Choukai (Listening)') {
-      qHint.style.display = 'flex';
-    }
+    qHint.style.display = 'flex';
   } else {
     qText.textContent = '';
     qText.className = 'question-text';
@@ -1553,10 +1549,12 @@ function playAudio() {
   }
 
   const q = quizQuestions[currentIndex];
-  const text = q.passage || q.question || '';
+  // Untuk Choukai: baca passage (dialog Jepang). Untuk lain: baca question text.
+  const text = q.category === 'Choukai (Listening)'
+    ? (q.passage || q.question || '')
+    : (q.question || q.passage || '');
   if (!text || text.length < 2) {
-    // Soal Choukai dengan gambar — tidak ada teks TTS tersedia
-    showToast('⚠️ Soal ini tidak memiliki teks audio. Jawab berdasarkan gambar.');
+    showToast('⚠️ Soal ini tidak memiliki teks audio.');
     return;
   }
 
@@ -1683,7 +1681,13 @@ function selectAnswer(selectedKey, clickedBtn) {
   } else {
     ansRef.textContent = '(Soal latihan — tidak ada kunci)';
   }
-  ansDetail.textContent = q.explanation || '';
+  if (q.explanation && q.explanation.length > 2) {
+    ansDetail.textContent = '💡 ' + q.explanation;
+    ansDetail.style.display = 'block';
+  } else {
+    ansDetail.textContent = '';
+    ansDetail.style.display = 'none';
+  }
 
   document.getElementById('next-btn').style.display = 'block';
   document.getElementById('next-btn').focus();
