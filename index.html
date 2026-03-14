@@ -495,6 +495,8 @@
   .option-btn.reveal-correct .opt-key { background: var(--green); color: white; }
 
   .option-btn:disabled { cursor: default; }
+  .option-btn.image-opt { font-style: italic; opacity: 0.9; }
+  .option-btn.image-opt .opt-key { min-width: 28px; }
 
   /* Answer panel */
   .answer-panel {
@@ -1405,6 +1407,9 @@ function toggleCategory(cat, chip) {
 function startQuiz() {
   let pool = [...QUESTIONS];
 
+  // Filter soal yang tidak punya options sama sekali — tidak bisa dimainkan
+  pool = pool.filter(q => q.options && Object.keys(q.options).length > 0);
+
   if (currentMode === 'topic' && selectedTopics.size > 0) {
     pool = pool.filter(q => selectedTopics.has(q.topic));
   } else if (currentMode === 'category' && selectedCategories.size > 0) {
@@ -1483,21 +1488,34 @@ function renderQuestion() {
   // Show audio player for Choukai
   if (q.category === 'Choukai (Listening)') {
     const audioText = q.passage || q.question || '';
-    const preview = audioText.length > 40 ? audioText.slice(0, 40) + '…' : audioText;
-    document.getElementById('audio-text-preview').textContent = preview || 'Klik ▶ untuk mendengarkan soal';
+    // Detect if options are image-placeholders (A/B/C/D)
+    const hasImageOpts = q.options && Object.values(q.options).every(v => /^[A-D]$/i.test(v.trim()));
+    let preview;
+    if (audioText && audioText.length > 2) {
+      preview = audioText.length > 60 ? audioText.slice(0, 60) + '…' : audioText;
+    } else if (hasImageOpts) {
+      preview = 'Lihat gambar pilihan A/B/C/D di soal';
+    } else {
+      preview = 'Soal mendengarkan — pilih jawaban yang tepat';
+    }
+    document.getElementById('audio-text-preview').textContent = preview;
     audioPlayer.style.display = 'flex';
-    // Auto-play for choukai
-    setTimeout(() => playAudio(), 600);
+    // Only auto-play if there is actual text to speak
+    if (audioText && audioText.length > 2) {
+      setTimeout(() => playAudio(), 600);
+    }
   }
 
   // Show question text or hint
-  if (q.question && q.question.length > 3) {
+  if (q.question && q.question.length > 2) {
     qText.textContent = q.question;
     qText.className = 'question-text' + (q.question.includes('＿') || q.question.includes('（）') || q.question.includes('（ ）') || q.question.includes('__') ? ' has-blank' : '');
   } else if (!q.page_image && !q.passage) {
     qText.textContent = '';
     qText.className = 'question-text';
-    qHint.style.display = 'flex';
+    if (q.category !== 'Choukai (Listening)') {
+      qHint.style.display = 'flex';
+    }
   } else {
     qText.textContent = '';
     qText.className = 'question-text';
@@ -1506,11 +1524,14 @@ function renderQuestion() {
   // Options
   const container = document.getElementById('options-container');
   container.innerHTML = '';
+  const isImageOpts = q.options && Object.values(q.options).every(v => /^[A-Da-d]$/.test(v.trim()));
   Object.entries(q.options).forEach(([key, val]) => {
     const btn = document.createElement('button');
     btn.className = 'option-btn';
     btn.dataset.key = key;
-    btn.innerHTML = `<span class="opt-key">${key}</span><span>${val}</span>`;
+    // If value is just "A"/"B" etc (image option), show "Pilihan A" for clarity
+    const displayVal = isImageOpts ? `Pilihan ${val.toUpperCase()}` : val;
+    btn.innerHTML = `<span class="opt-key">${key.toUpperCase()}</span><span>${displayVal}</span>`;
     btn.onclick = () => selectAnswer(key, btn);
     container.appendChild(btn);
   });
@@ -1534,7 +1555,8 @@ function playAudio() {
   const q = quizQuestions[currentIndex];
   const text = q.passage || q.question || '';
   if (!text || text.length < 2) {
-    showToast('Tidak ada teks audio untuk soal ini');
+    // Soal Choukai dengan gambar — tidak ada teks TTS tersedia
+    showToast('⚠️ Soal ini tidak memiliki teks audio. Jawab berdasarkan gambar.');
     return;
   }
 
@@ -1654,9 +1676,12 @@ function selectAnswer(selectedKey, clickedBtn) {
 
   if (hasKey) {
     const keyLabel = { a: 'A', b: 'B', c: 'C', d: 'D' };
-    ansRef.textContent = `${keyLabel[q.answer] || q.answer.toUpperCase()} — ${q.options[q.answer] || ''}`;
+    const ansVal = q.options[q.answer] || '';
+    const isImageOpts = q.options && Object.values(q.options).every(v => /^[A-Da-d]$/.test(v.trim()));
+    const displayAns = isImageOpts ? `Pilihan ${(q.answer || '').toUpperCase()}` : ansVal;
+    ansRef.textContent = `${keyLabel[q.answer] || q.answer.toUpperCase()} — ${displayAns}`;
   } else {
-    ansRef.textContent = '(Soal latihan)';
+    ansRef.textContent = '(Soal latihan — tidak ada kunci)';
   }
   ansDetail.textContent = q.explanation || '';
 
