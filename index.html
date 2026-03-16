@@ -700,7 +700,57 @@ body {
   z-index: 9999;
 }
 
-/* ============ TOAST ============ */
+/* ============ SUPPORT CREATOR ============ */
+.sidebar-support {
+  padding: 12px 14px;
+  border-top: 1px solid var(--border);
+}
+.support-btn {
+  display: flex; align-items: center; gap: 10px;
+  background: linear-gradient(135deg, rgba(232,83,58,0.12), rgba(212,168,71,0.1));
+  border: 1px solid rgba(232,83,58,0.3);
+  border-radius: 10px; padding: 10px 12px;
+  text-decoration: none; color: var(--ink);
+  transition: all 0.2s; cursor: pointer;
+}
+.support-btn:hover {
+  background: linear-gradient(135deg, rgba(232,83,58,0.22), rgba(212,168,71,0.18));
+  border-color: rgba(232,83,58,0.6);
+  transform: translateY(-1px);
+}
+.support-icon { font-size: 20px; flex-shrink: 0; }
+.support-text { flex: 1; min-width: 0; }
+.support-title { display: block; font-size: 12px; font-weight: 700; color: var(--accent); }
+.support-sub { display: block; font-size: 10px; color: var(--ink3); margin-top: 1px; font-family: var(--font-mono); }
+.support-arrow { font-size: 12px; color: var(--ink3); flex-shrink: 0; }
+
+.support-card-dash {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  background: linear-gradient(135deg, rgba(232,83,58,0.08), rgba(212,168,71,0.06));
+  border: 1px solid rgba(232,83,58,0.25);
+  border-radius: var(--r); padding: 18px 22px;
+  text-decoration: none; color: var(--ink);
+  transition: all 0.2s; margin-top: 16px;
+  cursor: pointer;
+}
+.support-card-dash:hover {
+  border-color: rgba(232,83,58,0.5);
+  background: linear-gradient(135deg, rgba(232,83,58,0.14), rgba(212,168,71,0.1));
+  transform: translateY(-1px); box-shadow: var(--shadow);
+}
+.scd-left { display: flex; align-items: center; gap: 14px; }
+.scd-icon { font-size: 28px; flex-shrink: 0; }
+.scd-title { font-size: 14px; font-weight: 700; margin-bottom: 3px; }
+.scd-sub { font-size: 12px; color: var(--ink2); line-height: 1.4; }
+.scd-cta {
+  background: var(--accent); color: white;
+  padding: 8px 16px; border-radius: 8px;
+  font-size: 13px; font-weight: 700;
+  white-space: nowrap; flex-shrink: 0;
+  font-family: var(--font);
+}
+
+
 .toast {
   position: fixed; bottom: 24px; right: 24px;
   background: var(--surface2);
@@ -905,6 +955,17 @@ body {
       </div>
     </nav>
 
+    <div class="sidebar-support">
+      <a href="https://trakteer.id/irvansignora/tip" target="_blank" class="support-btn">
+        <span class="support-icon">☕</span>
+        <div class="support-text">
+          <span class="support-title">Support Creator</span>
+          <span class="support-sub">Trakteer @irvansignora</span>
+        </div>
+        <span class="support-arrow">↗</span>
+      </a>
+    </div>
+
     <div class="sidebar-user">
       <div class="user-level">
         <div class="level-badge" id="sb-level">A1</div>
@@ -1006,6 +1067,17 @@ body {
           <button class="cta-btn ghost" onclick="goScreen('practice')">📚 Pilih Topik</button>
         </div>
       </div>
+
+      <a href="https://trakteer.id/irvansignora/tip" target="_blank" class="support-card-dash">
+        <div class="scd-left">
+          <span class="scd-icon">☕</span>
+          <div>
+            <div class="scd-title">Suka dengan NihongoPath?</div>
+            <div class="scd-sub">Support creator via Trakteer — bantu pengembangan fitur lebih lanjut 🙏</div>
+          </div>
+        </div>
+        <div class="scd-cta">Trakteer ↗</div>
+      </a>
     </div>
 
     <!-- ======= CURRICULUM ======= -->
